@@ -1,0 +1,2153 @@
+{
+  "Data": [
+    {
+      "QuestionId": "tc_905",
+      "Question": "Who first hosted Family Feud?",
+      "TargetDocIds": [
+        "doc0001"
+      ],
+      "Answer": {
+        "Value": "Richard Dawson",
+        "NormalizedValue": "richard dawson",
+        "Aliases": [
+          "Dick Dawson",
+          "Richard Dawson",
+          "Dickie Dawson",
+          "Colin Lionel Emm",
+          "Colin Emm"
+        ],
+        "NormalizedAliases": [
+          "colin lionel emm",
+          "richard dawson",
+          "colin emm",
+          "dickie dawson",
+          "dick dawson"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_280",
+      "Question": "Who directed the classic 30s western Stagecoach?",
+      "TargetDocIds": [
+        "doc0002"
+      ],
+      "Answer": {
+        "Value": "John Ford",
+        "NormalizedValue": "john ford",
+        "Aliases": [
+          "John Ford (1895-1973)",
+          "Sean O'Feeney",
+          "John Ford (film director)",
+          "Ford, John (1895-1973)",
+          "Argosy Pictures",
+          "John Ford statue",
+          "John Martin O'Feeney",
+          "John Ford (director)",
+          "Cavalry trilogy",
+          "John O'Feeney",
+          "Sean Aloysius O'Feeney",
+          "Ford, John",
+          "John Ford"
+        ],
+        "NormalizedAliases": [
+          "john ford 1895 1973",
+          "sean o feeney",
+          "ford john 1895 1973",
+          "john ford statue",
+          "ford john",
+          "john o feeney",
+          "john ford",
+          "sean aloysius o feeney",
+          "argosy pictures",
+          "cavalry trilogy",
+          "john ford film director",
+          "john ford director",
+          "john martin o feeney"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_2202",
+      "Question": "What are the international registration letters of a vehicle from Iceland?",
+      "TargetDocIds": [
+        "doc0003"
+      ],
+      "Answer": {
+        "Value": "IS",
+        "NormalizedValue": "is",
+        "Aliases": [
+          "I S",
+          "I.s.",
+          "IS",
+          "I.S.",
+          "Is.",
+          "IS (disambiguation)",
+          "Is"
+        ],
+        "NormalizedAliases": [
+          "is",
+          "i s",
+          "is disambiguation"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_1943",
+      "Question": "In which North African country was Mohammed Al-Fayed, owner of Harrods department store in London, born?",
+      "TargetDocIds": [
+        "doc0004"
+      ],
+      "Answer": {
+        "Value": "Egypt",
+        "NormalizedValue": "egypt",
+        "Aliases": [
+          "EGY",
+          "Arab Republic of Egypt",
+          "A .R . EGYPT",
+          "The Arab Republic of Egypt",
+          "Eygpt",
+          "Etymology of Egypt",
+          "مصر",
+          "Kemmet",
+          "Gift of the Nile",
+          "Arab Republic Of Egypt",
+          "Names of Egypt",
+          "Miṣr",
+          "A .R . Egypt",
+          "Eytp",
+          "National identity of Egyptians",
+          "Jumhuriyat Misr al'Arabiyah",
+          "Eypt",
+          "Egyptian Republic",
+          "Ejipt",
+          "Name of Egypt",
+          "Egipto",
+          "Kimet",
+          "جمهوريّة مصرالعربيّة",
+          "Egypte",
+          "Egypt (name)",
+          "Egypt",
+          "جمهورية مصرالعربية",
+          "A.R. Egypt",
+          "Republic of Eygpt",
+          "Égypte",
+          "Second Egyptian Republic",
+          "Egipt",
+          "ISO 3166-1:EG",
+          "Egypt info"
+        ],
+        "NormalizedAliases": [
+          "names of egypt",
+          "jumhuriyat misr al arabiyah",
+          "eytp",
+          "iso 3166 1 eg",
+          "egypt",
+          "r egypt",
+          "eygpt",
+          "kimet",
+          "name of egypt",
+          "جمهورية مصرالعربية",
+          "arab republic of egypt",
+          "egypt name",
+          "gift of nile",
+          "kemmet",
+          "miṣr",
+          "egipto",
+          "جمهوريّة مصرالعربيّة",
+          "egy",
+          "egypt info",
+          "egyptian republic",
+          "egypte",
+          "eypt",
+          "ejipt",
+          "national identity of egyptians",
+          "égypte",
+          "etymology of egypt",
+          "egipt",
+          "مصر",
+          "second egyptian republic",
+          "republic of eygpt"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_1704",
+      "Question": "Which grand slam did Pete Sampras not win in the 20th century?",
+      "TargetDocIds": [
+        "doc0005"
+      ],
+      "Answer": {
+        "Value": "French",
+        "NormalizedValue": "french",
+        "Aliases": [
+          "Français",
+          "Francaise",
+          "The French",
+          "Frenchness",
+          "French",
+          "Francais",
+          "French (disambiguation)",
+          "Frrench"
+        ],
+        "NormalizedAliases": [
+          "french disambiguation",
+          "french",
+          "frenchness",
+          "francaise",
+          "francais",
+          "frrench",
+          "français"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_1069",
+      "Question": "In which American state is the Isabella Stewart Gardner Museum?",
+      "TargetDocIds": [
+        "doc0006"
+      ],
+      "Answer": {
+        "Value": "Massachusetts",
+        "NormalizedValue": "massachusetts",
+        "Aliases": [
+          "Masachusetts",
+          "Masshole Commonwealth",
+          "Massachusetts (state)",
+          "Massachusetts culture",
+          "Massachusetts, United States",
+          "Masachussetts",
+          "Commonwealth of Masachusetts",
+          "The Bay State",
+          "Commonwealth of Masachussets",
+          "Culture of Massachusetts",
+          "Commonwealth of Massachusetts",
+          "MA (state)",
+          "Massechusetts",
+          "Commonwealth of Masachusets",
+          "Commonwealth of Massachussets",
+          "Religion in Massachusetts",
+          "Masschusetts",
+          "Masachussets",
+          "Commonwealth of Massachussetts",
+          "Massachusetts",
+          "Transport in Massachusetts",
+          "Massachusite",
+          "Economy of Massachusetts",
+          "6th State",
+          "Massitchusits",
+          "Massachsuetts",
+          "Commonwealth of Masachussetts",
+          "The Commonwealth of Massachusetts",
+          "Massachussets",
+          "Massachus",
+          "Massechussets",
+          "Transportation in Massachusetts",
+          "Massachusets",
+          "Masachusets",
+          "Mass.",
+          "Massachusetts state",
+          "Sixth State",
+          "Massachusites",
+          "Massacheusetts",
+          "Most Serene Commonwealth of Massachusetts",
+          "US-MA",
+          "Commonwealth of Massachusets",
+          "Massachussetts",
+          "Massachusetts (U.S. state)",
+          "Taxachusetts",
+          "State of Massachusetts",
+          "Massachusettes",
+          "Massachusettsan",
+          "Education in Massachusetts"
+        ],
+        "NormalizedAliases": [
+          "mass",
+          "massachusites",
+          "taxachusetts",
+          "massachusetts state",
+          "bay state",
+          "commonwealth of masachusets",
+          "massachusite",
+          "transportation in massachusetts",
+          "massachusettes",
+          "masachussetts",
+          "massachsuetts",
+          "masshole commonwealth",
+          "massacheusetts",
+          "culture of massachusetts",
+          "massachusetts u s state",
+          "massachussets",
+          "commonwealth of massachussets",
+          "ma state",
+          "commonwealth of masachussetts",
+          "massachusetts culture",
+          "commonwealth of massachussetts",
+          "masachussets",
+          "massachusets",
+          "massachusettsan",
+          "education in massachusetts",
+          "massachus",
+          "us ma",
+          "state of massachusetts",
+          "economy of massachusetts",
+          "massachusetts united states",
+          "6th state",
+          "commonwealth of massachusetts",
+          "massechusetts",
+          "massachusetts",
+          "commonwealth of massachusets",
+          "massechussets",
+          "masschusetts",
+          "transport in massachusetts",
+          "most serene commonwealth of massachusetts",
+          "massachussetts",
+          "commonwealth of masachussets",
+          "masachusetts",
+          "religion in massachusetts",
+          "masachusets",
+          "sixth state",
+          "massitchusits",
+          "commonwealth of masachusetts"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_866",
+      "Question": "Who was the first person after Scott to reach the South Pole overland?",
+      "TargetDocIds": [
+        "doc0007"
+      ],
+      "Answer": {
+        "Value": "Edmond Hillary",
+        "NormalizedValue": "edmond hillary",
+        "Aliases": [
+          "Sir Edmund Hillary",
+          "Edmund Hilary",
+          "Sir Ed",
+          "Sir Edmund Hilary",
+          "Sir Edmund Percival Hillary",
+          "Edmond Hillary",
+          "Ed Hillary",
+          "Edmond hillary",
+          "Sir Edmund",
+          "Edmund Percival Hillary",
+          "Edmund Hillary"
+        ],
+        "NormalizedAliases": [
+          "sir edmund",
+          "edmond hillary",
+          "sir edmund hillary",
+          "edmund hillary",
+          "sir edmund percival hillary",
+          "edmund hilary",
+          "sir ed",
+          "ed hillary",
+          "sir edmund hilary",
+          "edmund percival hillary"
+        ]
+      }
+    },
+    {
+      "QuestionId": "qz_1516",
+      "Question": "Who bought Chelsea football club for £1 in 1982?",
+      "TargetDocIds": [
+        "doc0008"
+      ],
+      "Answer": {
+        "Value": "Ken Bates",
+        "NormalizedValue": "ken bates",
+        "Aliases": [
+          "Ken Bates",
+          "Kenneth Bates"
+        ],
+        "NormalizedAliases": [
+          "kenneth bates",
+          "ken bates"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_719",
+      "Question": "River Phoenix died during the making of which movie?",
+      "TargetDocIds": [
+        "doc0009"
+      ],
+      "Answer": {
+        "Value": "Dark Blood",
+        "NormalizedValue": "dark blood",
+        "Aliases": [
+          "Dark Blood (film)",
+          "Dark Blood"
+        ],
+        "NormalizedAliases": [
+          "dark blood",
+          "dark blood film"
+        ]
+      }
+    },
+    {
+      "QuestionId": "qz_196",
+      "Question": "How many pieces are there in a standard set of dominoes?",
+      "TargetDocIds": [
+        "doc0010"
+      ],
+      "Answer": {
+        "Value": "28",
+        "NormalizedValue": "28",
+        "Aliases": [
+          "28",
+          "twenty-eight"
+        ],
+        "NormalizedAliases": [
+          "twenty eight",
+          "28"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_304",
+      "Question": "Which 90s sci fi series with James Belushi was based on Bruce Wagner's comic strip of the same name?",
+      "TargetDocIds": [
+        "doc0011"
+      ],
+      "Answer": {
+        "Value": "Wild Palms",
+        "NormalizedValue": "wild palms",
+        "Aliases": [
+          "Wild Palms"
+        ],
+        "NormalizedAliases": [
+          "wild palms"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_298",
+      "Question": "Which was the only eastern bloc country to participate in the 1984 LA Olympics?",
+      "TargetDocIds": [
+        "doc0012"
+      ],
+      "Answer": {
+        "Value": "Rumania",
+        "NormalizedValue": "rumania",
+        "Aliases": [
+          "ISO 3166-1:RO",
+          "Romanian state",
+          "ROMANIA",
+          "Roumania",
+          "Etymology of Romania",
+          "Romainia",
+          "Romînia",
+          "North Danubian region",
+          "Carpathian Danubian space",
+          "ROU",
+          "România",
+          "Romanian State",
+          "Roumanie",
+          "Country ROM",
+          "Rromania",
+          "Romania",
+          "Republic of Romania",
+          "RO (country)",
+          "Rumänien",
+          "Danubian-Carpathian Area",
+          "Rumania",
+          "Austro-Hungarian Empire (Romania)",
+          "Rumunia"
+        ],
+        "NormalizedAliases": [
+          "danubian carpathian area",
+          "roumania",
+          "austro hungarian empire romania",
+          "romania",
+          "rromania",
+          "iso 3166 1 ro",
+          "rou",
+          "country rom",
+          "ro country",
+          "rumunia",
+          "romainia",
+          "rumänien",
+          "etymology of romania",
+          "north danubian region",
+          "romînia",
+          "rumania",
+          "romanian state",
+          "carpathian danubian space",
+          "românia",
+          "republic of romania",
+          "roumanie"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_759",
+      "Question": "\"In which movie did Garbo say, \"\"I want to be alone\"\".\"",
+      "TargetDocIds": [
+        "doc0013"
+      ],
+      "Answer": {
+        "Value": "Grand Hotel",
+        "NormalizedValue": "grand hotel",
+        "Aliases": [
+          "The grand hotel",
+          "Grand Hôtel",
+          "Grand hotel",
+          "The Grand Hotel",
+          "Grand Hotel",
+          "Grand Hotel (disambiguation)"
+        ],
+        "NormalizedAliases": [
+          "grand hotel disambiguation",
+          "grand hôtel",
+          "grand hotel"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_1635",
+      "Question": "Who was the only female victim to be killed off in the opening credit sequence in Police Squad?",
+      "TargetDocIds": [
+        "doc0014"
+      ],
+      "Answer": {
+        "Value": "Florence Henderson",
+        "NormalizedValue": "florence henderson",
+        "Aliases": [
+          "Florence Agnes Henderson",
+          "Florence Henderson",
+          "Florence Hendersen",
+          "Flo Henderson"
+        ],
+        "NormalizedAliases": [
+          "florence hendersen",
+          "florence agnes henderson",
+          "florence henderson",
+          "flo henderson"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_1816",
+      "Question": "Who wrote My Life and Loves in 1926, originally banned in the US?",
+      "TargetDocIds": [
+        "doc0015"
+      ],
+      "Answer": {
+        "Value": "Frank Harris",
+        "NormalizedValue": "frank harris",
+        "Aliases": [
+          "Frank Harris"
+        ],
+        "NormalizedAliases": [
+          "frank harris"
+        ]
+      }
+    },
+    {
+      "QuestionId": "qz_1112",
+      "Question": "From which animal does Haggis come?",
+      "TargetDocIds": [
+        "doc0016"
+      ],
+      "Answer": {
+        "Value": "Sheep",
+        "NormalizedValue": "sheep",
+        "Aliases": [
+          "Sheep",
+          "Ovis aries",
+          "Domestic ram",
+          "Yorkshire Leicester",
+          "Persian Lamb",
+          "🐏",
+          "🐑",
+          "Bleat",
+          "Domesticated sheep",
+          "Ovine",
+          "Domestic ewe",
+          "Domestic sheep",
+          "Sheeps",
+          "Agnine",
+          "Feral sheep",
+          "Domestic Sheep",
+          "Ovis orientalis aries",
+          "Sheep sounds",
+          "Sheep description",
+          "Ram (sheep)",
+          "Yowe",
+          "Sheep, domestic"
+        ],
+        "NormalizedAliases": [
+          "sheep domestic",
+          "agnine",
+          "sheep sounds",
+          "🐑",
+          "🐏",
+          "domesticated sheep",
+          "persian lamb",
+          "ovis orientalis aries",
+          "ram sheep",
+          "domestic sheep",
+          "ovine",
+          "sheep description",
+          "domestic ewe",
+          "domestic ram",
+          "yorkshire leicester",
+          "ovis aries",
+          "sheeps",
+          "feral sheep",
+          "yowe",
+          "sheep",
+          "bleat"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_282",
+      "Question": "Dave Gilmore and Roger Waters were in which rock group?",
+      "TargetDocIds": [
+        "doc0017"
+      ],
+      "Answer": {
+        "Value": "Pink Floyd",
+        "NormalizedValue": "pink floyd",
+        "Aliases": [
+          "Grey Floyd",
+          "Pink Floyd trivia",
+          "The Screaming Ab Dabs",
+          "Pink flowd",
+          "The Meggadeaths",
+          "The Architectural Abdabs",
+          "PINK FLOYD",
+          "Pink Flod",
+          "Pink Floyd",
+          "Pink Floyd Trivia",
+          "The Pink Floyd",
+          "Notable or frequent contributors to pink floyd",
+          "The Tea Set",
+          "Pinkfloyd",
+          "Pi5",
+          "Pink floid",
+          "Pink Floyd (band)",
+          "The T Set",
+          "Screaming abdabs",
+          "Notable or frequent contributors to Pink Floyd",
+          "The Megadeaths",
+          "Pik floyd",
+          "The Pink Floyd Sound",
+          "Pink floyd",
+          "The T-Set",
+          "The Screaming Abdabs",
+          "Clive Metcalfe",
+          "Meggadeaths"
+        ],
+        "NormalizedAliases": [
+          "screaming abdabs",
+          "megadeaths",
+          "clive metcalfe",
+          "pink floyd band",
+          "pink flowd",
+          "meggadeaths",
+          "pi5",
+          "pink floyd",
+          "screaming ab dabs",
+          "grey floyd",
+          "architectural abdabs",
+          "pink flod",
+          "pinkfloyd",
+          "pik floyd",
+          "pink floyd sound",
+          "tea set",
+          "pink floid",
+          "t set",
+          "pink floyd trivia",
+          "notable or frequent contributors to pink floyd"
+        ]
+      }
+    },
+    {
+      "QuestionId": "qz_1693",
+      "Question": "What name is given to the home of a beaver?",
+      "TargetDocIds": [
+        "doc0018"
+      ],
+      "Answer": {
+        "Value": "Lodge",
+        "NormalizedValue": "lodge",
+        "Aliases": [
+          "Lodge",
+          "Lodge (disambiguation)",
+          "Lodges",
+          "The Lodge (disambiguation)",
+          "The Lodge"
+        ],
+        "NormalizedAliases": [
+          "lodge disambiguation",
+          "lodge",
+          "lodges"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_1421",
+      "Question": "What is Harrison Ford's real name?",
+      "TargetDocIds": [
+        "doc0019"
+      ],
+      "Answer": {
+        "Value": "Harrison Ford",
+        "NormalizedValue": "harrison ford",
+        "Aliases": [
+          "Harrison Ford (actor)",
+          "Harrison ford",
+          "Harrison Ford",
+          "Harison Ford",
+          "Ford, Harrison"
+        ],
+        "NormalizedAliases": [
+          "harrison ford",
+          "ford harrison",
+          "harison ford",
+          "harrison ford actor"
+        ]
+      }
+    },
+    {
+      "QuestionId": "qz_186",
+      "Question": "What is the most popular natural attraction in Alaska?",
+      "TargetDocIds": [
+        "doc0020"
+      ],
+      "Answer": {
+        "Value": "Mount McKinley",
+        "NormalizedValue": "mount mckinley",
+        "Aliases": [
+          "Denali North Peak",
+          "Mount McKinley",
+          "Mount McKinley North Peak",
+          "Mt McKinley (Denali)",
+          "Churchill peaks",
+          "Mount McKinley South Buttress",
+          "Highest mountain in North America",
+          "Большая Гора",
+          "Mount Mckinley",
+          "Mt. Denali",
+          "Mount mckinley",
+          "Mt McKinley",
+          "Mount McKinely",
+          "Mount McKinley East Buttress",
+          "Mt. McKinley",
+          "Mt. mckinley",
+          "Mount Denali",
+          "Denali East Buttress",
+          "Mount McKinley (Alaska)",
+          "Denali",
+          "Denali South Buttress",
+          "Mt mckinley"
+        ],
+        "NormalizedAliases": [
+          "denali south buttress",
+          "большая гора",
+          "mount mckinley south buttress",
+          "mount mckinley alaska",
+          "denali",
+          "mt denali",
+          "mount mckinely",
+          "mount mckinley",
+          "denali north peak",
+          "highest mountain in north america",
+          "mount mckinley east buttress",
+          "mt mckinley denali",
+          "mount mckinley north peak",
+          "churchill peaks",
+          "mount denali",
+          "mt mckinley",
+          "denali east buttress"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_1693",
+      "Question": "Who beat Tim Henman in his first Wimbledon singles semifinal?",
+      "TargetDocIds": [
+        "doc0021"
+      ],
+      "Answer": {
+        "Value": "Pete Sampras",
+        "NormalizedValue": "pete sampras",
+        "Aliases": [
+          "Sampras",
+          "Sampras, Pete",
+          "Pete Sampras",
+          "Peter Sampras",
+          "Petros %22Pete%22 Sampras"
+        ],
+        "NormalizedAliases": [
+          "sampras",
+          "sampras pete",
+          "peter sampras",
+          "pete sampras",
+          "petros 22pete 22 sampras"
+        ]
+      }
+    },
+    {
+      "QuestionId": "qz_547",
+      "Question": "What is the longest word can be typed using only the top row of letters on a typewriter?",
+      "TargetDocIds": [
+        "doc0022"
+      ],
+      "Answer": {
+        "Value": "Typewriter",
+        "NormalizedValue": "typewriter",
+        "Aliases": [
+          "Typewriter ribbons",
+          "Typewriter carriage",
+          "Personal word processor",
+          "Typewrite",
+          "Typewriters",
+          "Type-write",
+          "Type-writerly",
+          "Type machine",
+          "Electric typewriter",
+          "Typewrites",
+          "Typewriter",
+          "Type written",
+          "Electronic word processor",
+          "Typewriting",
+          "Typebasket",
+          "Type writer",
+          "Type writes",
+          "The type writer",
+          "Typewritten",
+          "Typewriterly",
+          "Type-writing",
+          "The first typewriter",
+          "Type-written",
+          "Typebars",
+          "Typewriter keyboard",
+          "Type wrote",
+          "Type-wrote",
+          "Type writers",
+          "Type write",
+          "Typewrote",
+          "Type-writers",
+          "Personal Word Processor",
+          "Electronic typewriter",
+          "Typebar",
+          "Type writing",
+          "Type-writes",
+          "Type-writer",
+          "Electromechanical typewriter",
+          "Manual typewriter",
+          "Type bar",
+          "Typing machine",
+          "Type writerly",
+          "Typewriter eraser"
+        ],
+        "NormalizedAliases": [
+          "type wrote",
+          "type bar",
+          "typewriter",
+          "electronic word processor",
+          "typewriter eraser",
+          "manual typewriter",
+          "personal word processor",
+          "type machine",
+          "typewriting",
+          "typewrites",
+          "typebars",
+          "type writer",
+          "type writers",
+          "typebar",
+          "type written",
+          "typewrote",
+          "type writing",
+          "electric typewriter",
+          "type write",
+          "typewriter ribbons",
+          "typing machine",
+          "first typewriter",
+          "typebasket",
+          "type writes",
+          "typewriterly",
+          "typewriter carriage",
+          "electronic typewriter",
+          "typewrite",
+          "typewriters",
+          "typewriter keyboard",
+          "electromechanical typewriter",
+          "type writerly",
+          "typewritten"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_2236",
+      "Question": "In WWII, who was the head of the Nazi party's security service?",
+      "TargetDocIds": [
+        "doc0023"
+      ],
+      "Answer": {
+        "Value": "Reinhard Heidrich",
+        "NormalizedValue": "reinhard heidrich",
+        "Aliases": [
+          "Reinhard Heidrich",
+          "Rinehardt Heydrich",
+          "Himmler's Evil Genius",
+          "ReinhardHeydrich",
+          "Heidrich, Rinehardt",
+          "Reinhard Hydrich",
+          "Reinhard Hydrick",
+          "The Young Evil God of Death",
+          "Rinehardt Heidrich",
+          "Heydrich",
+          "Heydrich Reinhard",
+          "Reinhard Hidrich",
+          "Reinhard Hidrick",
+          "Rhinehardt Heidrich",
+          "Reinhard Heydrick",
+          "The Butcher of Prague",
+          "Heidrich, Reinhardt",
+          "Heidrich, Rhinehardt",
+          "Reinhardt Heydrich",
+          "Rhinehardt Heydrich",
+          "Reinhard Heydrich",
+          "Rhinehart Heidrich",
+          "Reihnard Heidrich",
+          "Rhinehard Heydrich",
+          "Heydrich Reinhart",
+          "Rheinhard Heydrich",
+          "Heydrich, Reinhard",
+          "Rinehard Heidrich",
+          "Butcher of Prague",
+          "HeydrichReinhardt",
+          "Rhinehart Heydrich",
+          "Heidrich, Rhinehart",
+          "Reinhart heidrich",
+          "ReinhardtHeydrich",
+          "Heydrich, Reinhart",
+          "Heydrich, Reinhardt",
+          "Heydrich,Reinhardt",
+          "Rinehard Heydrich",
+          "Heydrich Reinhardt",
+          "Reinhart Heydrich",
+          "Heidrich, Rinehart",
+          "Young Evil God of Death",
+          "Heidrich, Reinhart",
+          "Rinehart Heydrich",
+          "HeydrichReinhard",
+          "Heydrich,Reinhard",
+          "Reinhard Tristan Eugen Heydrich",
+          "Rhinehard Heidrich",
+          "Heidrich, Rhinehard",
+          "Heidrich, Rinehard",
+          "Heydrich,Reinhart",
+          "Heidrich, Reinhard",
+          "Rinehart Heidrich",
+          "Himler's Evil Genius"
+        ],
+        "NormalizedAliases": [
+          "himler s evil genius",
+          "heidrich reinhart",
+          "heidrich rhinehard",
+          "reinhart heydrich",
+          "reinhard heydrich",
+          "himmler s evil genius",
+          "heidrich rinehart",
+          "heidrich reinhard",
+          "reinhard hydrich",
+          "reinhard heydrick",
+          "reinhardt heydrich",
+          "rinehard heidrich",
+          "reinhart heidrich",
+          "rhinehardt heydrich",
+          "rhinehart heidrich",
+          "heydrichreinhard",
+          "reinhardheydrich",
+          "rinehard heydrich",
+          "reinhard heidrich",
+          "reihnard heidrich",
+          "heydrich reinhardt",
+          "heydrich reinhard",
+          "heydrich reinhart",
+          "reinhard hidrick",
+          "rhinehardt heidrich",
+          "rhinehard heidrich",
+          "butcher of prague",
+          "rinehart heidrich",
+          "heidrich rhinehart",
+          "heydrich",
+          "reinhard hidrich",
+          "reinhard hydrick",
+          "rhinehart heydrich",
+          "heidrich rinehardt",
+          "rheinhard heydrich",
+          "rinehart heydrich",
+          "rhinehard heydrich",
+          "young evil god of death",
+          "reinhard tristan eugen heydrich",
+          "rinehardt heydrich",
+          "heydrichreinhardt",
+          "reinhardtheydrich",
+          "heidrich rinehard",
+          "rinehardt heidrich",
+          "heidrich reinhardt",
+          "heidrich rhinehardt"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_56",
+      "Question": "What claimed the life of singer Kathleen Ferrier?",
+      "TargetDocIds": [
+        "doc0024"
+      ],
+      "Answer": {
+        "Value": "Cancer",
+        "NormalizedValue": "cancer",
+        "Aliases": [
+          "Cancer pathology",
+          "Deaths by cancer",
+          "Anti-cancer",
+          "Cancer (disease)",
+          "Cancerophobia",
+          "Malignant lesion",
+          "Cancer medication",
+          "Malignant tumors",
+          "Cancer signs",
+          "Malignant neoplasm",
+          "Invasive (cancer)",
+          "Malignant Neoplasms",
+          "Malignant growth",
+          "Sporadic cancer",
+          "Malignant cancer",
+          "Tumour virus",
+          "Cancer en cuirasse",
+          "Microtumor",
+          "Malignant neoplasms",
+          "Malignant tumour",
+          "Carcinophobia",
+          "Malignacy",
+          "Cancer patient",
+          "Epithelial cancers",
+          "Solid cancer",
+          "Cancers",
+          "Tumor medication",
+          "Malignant neoplastic disease",
+          "AIDS-related cancer",
+          "Invasive cancer",
+          "Cancer therapy",
+          "Cancerous tumor",
+          "Cancer",
+          "Financial toxicity",
+          "Cancer diagnosis",
+          "Cancer (medicine)",
+          "Malignant tumor",
+          "Cancerous",
+          "Borderline (cancer)",
+          "Signs of cancer",
+          "Malignancies",
+          "Cancer aromatase"
+        ],
+        "NormalizedAliases": [
+          "aids related cancer",
+          "sporadic cancer",
+          "cancer disease",
+          "malignant tumors",
+          "cancers",
+          "carcinophobia",
+          "cancer",
+          "cancer diagnosis",
+          "malignant neoplastic disease",
+          "malignant neoplasm",
+          "tumour virus",
+          "cancer medicine",
+          "deaths by cancer",
+          "malignant tumour",
+          "epithelial cancers",
+          "solid cancer",
+          "cancerous",
+          "borderline cancer",
+          "invasive cancer",
+          "anti cancer",
+          "cancer pathology",
+          "cancer signs",
+          "cancer aromatase",
+          "cancer therapy",
+          "financial toxicity",
+          "cancerophobia",
+          "cancer en cuirasse",
+          "cancer patient",
+          "cancerous tumor",
+          "malignant cancer",
+          "malignant neoplasms",
+          "tumor medication",
+          "signs of cancer",
+          "malignacy",
+          "malignant tumor",
+          "cancer medication",
+          "microtumor",
+          "malignancies",
+          "malignant lesion",
+          "malignant growth"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_1152",
+      "Question": "Nigel Hawthorne was Oscar nominated for The Madness of which King?",
+      "TargetDocIds": [
+        "doc0025"
+      ],
+      "Answer": {
+        "Value": "George",
+        "NormalizedValue": "george",
+        "Aliases": [
+          "Gheevarghese",
+          "Vargheese",
+          "Ghevargheese",
+          "George (disambiguation)",
+          "Ghevarghese",
+          "Gheevargheese",
+          "George",
+          "Vargis",
+          "Geroge",
+          "George's",
+          "GEORGE"
+        ],
+        "NormalizedAliases": [
+          "george s",
+          "george disambiguation",
+          "gheevarghese",
+          "gheevargheese",
+          "geroge",
+          "ghevargheese",
+          "ghevarghese",
+          "vargheese",
+          "george",
+          "vargis"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_2687",
+      "Question": "Which builder of steam engines formed a successful partnership with Matthew Boulton?",
+      "TargetDocIds": [
+        "doc0026"
+      ],
+      "Answer": {
+        "Value": "James Watt",
+        "NormalizedValue": "james watt",
+        "Aliases": [
+          "James Watt (inventor)",
+          "James Watt",
+          "James Watt of Scotland",
+          "James Watt of Scottland",
+          "Watt, James"
+        ],
+        "NormalizedAliases": [
+          "james watt of scottland",
+          "watt james",
+          "james watt of scotland",
+          "james watt inventor",
+          "james watt"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_1128",
+      "Question": "Which film director guested as the FBI Director in The Silence of the Lambs?",
+      "TargetDocIds": [
+        "doc0027"
+      ],
+      "Answer": {
+        "Value": "Roger Corman",
+        "NormalizedValue": "roger corman",
+        "Aliases": [
+          "The Doorway (film)",
+          "Roger William Corman",
+          "Roger Corman"
+        ],
+        "NormalizedAliases": [
+          "roger william corman",
+          "doorway film",
+          "roger corman"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_1623",
+      "Question": "In Hanna and Barbera's TV cartoons base on The Addams Family who was the voice of Gomez?",
+      "TargetDocIds": [
+        "doc0028"
+      ],
+      "Answer": {
+        "Value": "John Astin",
+        "NormalizedValue": "john astin",
+        "Aliases": [
+          "John Astin"
+        ],
+        "NormalizedAliases": [
+          "john astin"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_2669",
+      "Question": "\"What is the more common name of the \"\"simple plurality\"\" system of voting?\"",
+      "TargetDocIds": [
+        "doc0029"
+      ],
+      "Answer": {
+        "Value": "First past the post",
+        "NormalizedValue": "first past post",
+        "Aliases": [
+          "First-past-the-post electoral system",
+          "FPTP",
+          "First-Past-The-Post",
+          "First past the post",
+          "First past the post electoral system",
+          "Multiple member first-past-the-post voting",
+          "First-past-the-post",
+          "First Past The Post",
+          "First-Past-The-Post Voting",
+          "First Past the Post (FPTP)",
+          "First Past the Post electoral system",
+          "First past the post system",
+          "First-Past-The-Post Method",
+          "First Past the Post",
+          "First-past-the-post election system",
+          "First-past-the-post voting",
+          "First pass the post",
+          "Simple-majority"
+        ],
+        "NormalizedAliases": [
+          "fptp",
+          "simple majority",
+          "multiple member first past post voting",
+          "first pass post",
+          "first past post election system",
+          "first past post electoral system",
+          "first past post method",
+          "first past post system",
+          "first past post voting",
+          "first past post fptp",
+          "first past post"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_2926",
+      "Question": "What is the name of the large buttock and thigh muscle?",
+      "TargetDocIds": [
+        "doc0030"
+      ],
+      "Answer": {
+        "Value": "Gluteus maximus",
+        "NormalizedValue": "gluteus maximus",
+        "Aliases": [
+          "Gluteus maximus muscles",
+          "Glutei maximi",
+          "Gluteus maximus",
+          "Gluteaus maximus",
+          "Glutaeus maximus muscle",
+          "Musculus glutaeus maximus",
+          "Glute",
+          "Glutius maximus",
+          "Gluteus Maximus",
+          "Musculus gluteus maximus",
+          "Glutes",
+          "Glutis maximus",
+          "Gluteus maximus muscle",
+          "Glutæus maximus",
+          "Glutaeus maximus",
+          "Glutæus maximus muscle"
+        ],
+        "NormalizedAliases": [
+          "gluteaus maximus",
+          "glutes",
+          "glutis maximus",
+          "glutius maximus",
+          "musculus gluteus maximus",
+          "gluteus maximus muscle",
+          "glutei maximi",
+          "musculus glutaeus maximus",
+          "glute",
+          "glutæus maximus muscle",
+          "glutaeus maximus muscle",
+          "glutaeus maximus",
+          "glutæus maximus",
+          "gluteus maximus muscles",
+          "gluteus maximus"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_812",
+      "Question": "Who was the defending champion when Martina Navratilova first won Wimbledon singles?",
+      "TargetDocIds": [
+        "doc0031"
+      ],
+      "Answer": {
+        "Value": "Virginia Wade",
+        "NormalizedValue": "virginia wade",
+        "Aliases": [
+          "Virginia Wade",
+          "Sarah Virginia Wade"
+        ],
+        "NormalizedAliases": [
+          "virginia wade",
+          "sarah virginia wade"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_2818",
+      "Question": "What type of seaweed grows up to 100 meters in length, and is farmed for its alginates?",
+      "TargetDocIds": [
+        "doc0032"
+      ],
+      "Answer": {
+        "Value": "Kelp",
+        "NormalizedValue": "kelp",
+        "Aliases": [
+          "Laminariales",
+          "Kelp",
+          "Kelps"
+        ],
+        "NormalizedAliases": [
+          "kelp",
+          "laminariales",
+          "kelps"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_2728",
+      "Question": "What raw material is used for making glass?",
+      "TargetDocIds": [
+        "doc0033"
+      ],
+      "Answer": {
+        "Value": "Sand",
+        "NormalizedValue": "sand",
+        "Aliases": [
+          "Sandiest",
+          "Coversand",
+          "Desert sand",
+          "Psammophilous",
+          "Psammophile",
+          "Sand",
+          "Floor sugar",
+          "Sand-grain",
+          "Floor-sugar",
+          "Sand grain",
+          "Grains of sand"
+        ],
+        "NormalizedAliases": [
+          "sand grain",
+          "floor sugar",
+          "desert sand",
+          "sandiest",
+          "sand",
+          "coversand",
+          "psammophilous",
+          "grains of sand",
+          "psammophile"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_2116",
+      "Question": "Throughout the 80s and 90s Phil Collins recorded on which record label?",
+      "TargetDocIds": [
+        "doc0034"
+      ],
+      "Answer": {
+        "Value": "Atlantic",
+        "NormalizedValue": "atlantic",
+        "Aliases": [
+          "Sea of Atlas",
+          "The Pond",
+          "Ethiopic Ocean",
+          "Across the pond",
+          "North Atlantic",
+          "The Atlantic Ocean",
+          "North Atlantic ocean",
+          "Northern Atlantic",
+          "Altantic Ocean",
+          "Atlantis Thalassa",
+          "Atlantic basic",
+          "The pond",
+          "Atlantic basin",
+          "Atlantic",
+          "Atlantic Oceans",
+          "Occidental Ocean",
+          "Ethiopian Ocean",
+          "North Atlantic fisheries",
+          "Atlantic Basic",
+          "North-East Atlantic",
+          "Atlantic Basin",
+          "Atlantic ocean",
+          "Atlantic (ocean)",
+          "Antlantic Ocean",
+          "South Atlantic Ocean",
+          "Oceanvs Occidentalis",
+          "Atlantic Ocean",
+          "Central Atlantic",
+          "South Atlantic",
+          "East Atlantic",
+          "North Atlantic Ocean",
+          "Altantic ocean",
+          "Atlantic coast"
+        ],
+        "NormalizedAliases": [
+          "east atlantic",
+          "atlantic ocean",
+          "north atlantic ocean",
+          "ethiopian ocean",
+          "oceanvs occidentalis",
+          "atlantic basic",
+          "south atlantic",
+          "altantic ocean",
+          "south atlantic ocean",
+          "atlantic basin",
+          "north atlantic fisheries",
+          "northern atlantic",
+          "north east atlantic",
+          "antlantic ocean",
+          "sea of atlas",
+          "occidental ocean",
+          "atlantic",
+          "across pond",
+          "atlantic coast",
+          "atlantic oceans",
+          "north atlantic",
+          "ethiopic ocean",
+          "pond",
+          "central atlantic",
+          "atlantis thalassa"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_510",
+      "Question": "What was President Gerald Ford's middle name?",
+      "TargetDocIds": [
+        "doc0035"
+      ],
+      "Answer": {
+        "Value": "Rudolph",
+        "NormalizedValue": "rudolph",
+        "Aliases": [
+          "Rudolph (disambiguation)",
+          "Rudolph",
+          "Rudolf",
+          "Rodolph",
+          "Rodolphe"
+        ],
+        "NormalizedAliases": [
+          "rudolf",
+          "rudolph",
+          "rodolphe",
+          "rudolph disambiguation",
+          "rodolph"
+        ]
+      }
+    },
+    {
+      "QuestionId": "qz_647",
+      "Question": "In which arcade game, would you find ghosts called Inky, Pinky, Blinky and Clyde?",
+      "TargetDocIds": [
+        "doc0036"
+      ],
+      "Answer": {
+        "Value": "Pac-Man",
+        "NormalizedValue": "pac man",
+        "Aliases": [
+          "Pakman",
+          "Pac-man",
+          "Pac-mn",
+          "Pacman",
+          "Blinky, Pinky, Inky, Clyde",
+          "Pac-Man (card game)",
+          "Puck-Man",
+          "Pac Man Magnetic Maze",
+          "Google Pac-Man",
+          "パックマン",
+          "Puc-Man",
+          "Clyde (monster)",
+          "Pac dots",
+          "PACMAN",
+          "Pac-Man (film)",
+          "Aosuke",
+          "PUCK-MAN",
+          "CDMan",
+          "Pakkuman",
+          "MacMan Kid",
+          "Inky (ghost)",
+          "Pac-man (board game)",
+          "Google Pacman",
+          "Pac man",
+          "Blinky (ghost)",
+          "PuckMan",
+          "Pac-man ghosts",
+          "Paku paku",
+          "Split-Screen Level",
+          "Clyde (ghost)",
+          "PAC-MAN",
+          "Puck Man",
+          "Pac-Man",
+          "PacMan",
+          "Blinky (monster)",
+          "PUCKMAN",
+          "Pac Man",
+          "Pinky (ghost)",
+          "Guzuta",
+          "Puck-man",
+          "Akabei",
+          "PUCK MAN",
+          "Pac-Man (board game)"
+        ],
+        "NormalizedAliases": [
+          "pac man magnetic maze",
+          "google pacman",
+          "blinky pinky inky clyde",
+          "split screen level",
+          "google pac man",
+          "pac man",
+          "pac man ghosts",
+          "pakman",
+          "aosuke",
+          "puckman",
+          "akabei",
+          "clyde ghost",
+          "pinky ghost",
+          "macman kid",
+          "pac dots",
+          "pac mn",
+          "pacman",
+          "clyde monster",
+          "パックマン",
+          "puc man",
+          "blinky ghost",
+          "blinky monster",
+          "pac man card game",
+          "puck man",
+          "pac man film",
+          "inky ghost",
+          "paku paku",
+          "cdman",
+          "guzuta",
+          "pac man board game",
+          "pakkuman"
+        ]
+      }
+    },
+    {
+      "QuestionId": "qz_1384",
+      "Question": "The Canary Islands are named after what animal?",
+      "TargetDocIds": [
+        "doc0037"
+      ],
+      "Answer": {
+        "Value": "Dog",
+        "NormalizedValue": "dog",
+        "Aliases": [
+          "Domestic dogs",
+          "Female dogs",
+          "Canis familiaris",
+          "Canis Familaris",
+          "Canis familiaris domesticus",
+          "Dogs (Animals)",
+          "🐕",
+          "She dog",
+          "She-dog",
+          "Dogs",
+          "Doggy",
+          "Canis familiarus domesticus",
+          "Domestic dog",
+          "Dogs as pets",
+          "Dog (pet)",
+          "Dog (Domestic)",
+          "Pet dog",
+          "She dogs",
+          "Canis lupus familiaris",
+          "Canine lupus",
+          "Dog hood",
+          "Shedog",
+          "🐶",
+          "The domestic dog clade",
+          "A dog",
+          "Canis domesticus",
+          "Dogs as our pets",
+          "Canis Canis",
+          "Domestic Dog",
+          "Canis Lupus Familiaris",
+          "Doggie",
+          "Dog",
+          "C.l. familiaris",
+          "Doggies",
+          "A man's best friend",
+          "Doghood",
+          "Shedogs",
+          "Bitch (female dog)",
+          "She-dogs",
+          "Dogness",
+          "Bitch (dog)",
+          "Female dog",
+          "C. l. familiaris",
+          "Shelter dog"
+        ],
+        "NormalizedAliases": [
+          "dogs",
+          "doggie",
+          "doggy",
+          "dog",
+          "shedog",
+          "canis domesticus",
+          "she dogs",
+          "canis canis",
+          "canis lupus familiaris",
+          "canis familaris",
+          "female dogs",
+          "domestic dogs",
+          "c l familiaris",
+          "bitch dog",
+          "domestic dog",
+          "pet dog",
+          "man s best friend",
+          "canis familiaris domesticus",
+          "dogs animals",
+          "female dog",
+          "dogs as pets",
+          "dog pet",
+          "dog domestic",
+          "dogs as our pets",
+          "doggies",
+          "shedogs",
+          "canis familiaris",
+          "🐶",
+          "doghood",
+          "canis familiarus domesticus",
+          "shelter dog",
+          "🐕",
+          "dogness",
+          "domestic dog clade",
+          "bitch female dog",
+          "dog hood",
+          "she dog",
+          "canine lupus"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_1007",
+      "Question": "Who was born first, Kiefer Sutherland or Christian Slater?",
+      "TargetDocIds": [
+        "doc0038"
+      ],
+      "Answer": {
+        "Value": "Kiefer Sutherland",
+        "NormalizedValue": "kiefer sutherland",
+        "Aliases": [
+          "Kiefer sutherlund",
+          "Keefer Sutherland",
+          "Promised Land (1987)",
+          "Keifer Sutherland",
+          "Kiefer William Frederick Dempsey George Rufus Sutherland",
+          "Kiefer Sutherland",
+          "Keifer Southerland",
+          "Kiefer William Fredrick Dempsey George Rufus Sutherland",
+          "Kiefer Sutherland characters"
+        ],
+        "NormalizedAliases": [
+          "keifer sutherland",
+          "kiefer sutherland",
+          "kiefer william frederick dempsey george rufus sutherland",
+          "kiefer sutherlund",
+          "kiefer sutherland characters",
+          "promised land 1987",
+          "keefer sutherland",
+          "kiefer william fredrick dempsey george rufus sutherland",
+          "keifer southerland"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_2914",
+      "Question": "How many chambers has the heart?",
+      "TargetDocIds": [
+        "doc0039"
+      ],
+      "Answer": {
+        "Value": "Four",
+        "NormalizedValue": "four",
+        "Aliases": [
+          "Four",
+          "four",
+          "4"
+        ],
+        "NormalizedAliases": [
+          "four",
+          "4"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_678",
+      "Question": "Who had a 70s No 1 hit with Let's Do It Again?",
+      "TargetDocIds": [
+        "doc0040"
+      ],
+      "Answer": {
+        "Value": "The Staple Singers",
+        "NormalizedValue": "staple singers",
+        "Aliases": [
+          "The Staple Singers",
+          "Staple Singers",
+          "The Staples Singers",
+          "Staples Singers",
+          "Cleotha Staples"
+        ],
+        "NormalizedAliases": [
+          "cleotha staples",
+          "staple singers",
+          "staples singers"
+        ]
+      }
+    },
+    {
+      "QuestionId": "qz_1603",
+      "Question": "Which film features the characters Sally Albright and Harry Burns?",
+      "TargetDocIds": [
+        "doc0041"
+      ],
+      "Answer": {
+        "Value": "When Harry Met Sally",
+        "NormalizedValue": "when harry met sally",
+        "Aliases": [
+          "When Harry Met Sally…",
+          "I'll have what she's having",
+          "When Harry Met Sally",
+          "Sally Albright",
+          "When Harry Met Sally...",
+          "When harry met sally",
+          "When Harry Met Sally ...",
+          "I’ll have what she’s having"
+        ],
+        "NormalizedAliases": [
+          "i ll have what she s having",
+          "when harry met sally…",
+          "sally albright",
+          "when harry met sally"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_2295",
+      "Question": "In which city was John Lennon murdered?",
+      "TargetDocIds": [
+        "doc0042"
+      ],
+      "Answer": {
+        "Value": "New York",
+        "NormalizedValue": "new york",
+        "Aliases": [
+          "New Yourk State",
+          "State of N.Y.",
+          "US-NY",
+          "N Y",
+          "The state of NY",
+          "NewYork",
+          "NYS",
+          "Neo York",
+          "NY state",
+          "Nova York",
+          "State of new york",
+          "Ny",
+          "New york",
+          "Nueva York (estado)",
+          "N Y state",
+          "New York (state)",
+          "U.S. state of New York",
+          "New York state",
+          "New York, U.S.",
+          "State New York",
+          "Nýja-Jórvík",
+          "Newyork",
+          "NEW YORK",
+          "State of N. Y.",
+          "N. Y. state",
+          "NY",
+          "The state of N.Y.",
+          "NY (state)",
+          "New York's",
+          "N.Y. (U.S. state)",
+          "State of new yourk",
+          "New York State",
+          "New York (U.S. state)",
+          "New york state",
+          "New Yrok",
+          "11th State",
+          "New York (USA State)",
+          "State of N Y",
+          "New-York",
+          "The State of New York",
+          "State of New York",
+          "US state of New York",
+          "N Y (U.S. state)",
+          "N.Y. state",
+          "N.Y.",
+          "The state of N. Y.",
+          "N. Y. (state)",
+          "The state of N Y",
+          "New York, US",
+          "N.Y. (state)",
+          "Nyja-Jorvik",
+          "Religion in New York",
+          "New Yourk",
+          "N. Y.",
+          "New York State's",
+          "Estado Nueva York",
+          "New York (USA state)",
+          "New york population",
+          "New York, U.S.A",
+          "New York",
+          "NY (U.S. state)",
+          "Estado de Nueva York",
+          "N. Y. (U.S. state)",
+          "Eleventh State",
+          "N Y (state)",
+          "State of NY",
+          "New York (State)",
+          "New York (U.S. state"
+        ],
+        "NormalizedAliases": [
+          "us ny",
+          "n y",
+          "neo york",
+          "11th state",
+          "new york state s",
+          "nýja jórvík",
+          "new yourk",
+          "new york us",
+          "new york",
+          "estado nueva york",
+          "nova york",
+          "ny state",
+          "state new york",
+          "new yourk state",
+          "u s state of new york",
+          "eleventh state",
+          "state of n y",
+          "new york u s",
+          "new york s",
+          "n y u s state",
+          "newyork",
+          "new york usa state",
+          "new yrok",
+          "state of new yourk",
+          "state of new york",
+          "nyja jorvik",
+          "ny",
+          "estado de nueva york",
+          "religion in new york",
+          "nueva york estado",
+          "new york u s state",
+          "new york state",
+          "state of ny",
+          "n y state",
+          "us state of new york",
+          "nys",
+          "new york population",
+          "ny u s state"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_2833",
+      "Question": "What is the most abundant substance in the plant kingdom, which no mammal produces the enzyme to digest?",
+      "TargetDocIds": [
+        "doc0043"
+      ],
+      "Answer": {
+        "Value": "Cellulose",
+        "NormalizedValue": "cellulose",
+        "Aliases": [
+          "E460",
+          "Rosette terminal complex",
+          "Cellulosic",
+          "Cellulolysis",
+          "Cellulose ester",
+          "Cellulolytic",
+          "Cellulose",
+          "Cellulolysys",
+          "Tunicin",
+          "Tunicine"
+        ],
+        "NormalizedAliases": [
+          "cellulolytic",
+          "cellulose",
+          "cellulose ester",
+          "cellulolysis",
+          "tunicin",
+          "e460",
+          "cellulosic",
+          "cellulolysys",
+          "tunicine",
+          "rosette terminal complex"
+        ]
+      }
+    },
+    {
+      "QuestionId": "qz_1858",
+      "Question": "The Kray twins were convicted of the murder of George Cornell in the East End of London in 1966. What was the name of the pub in which he was shot?",
+      "TargetDocIds": [
+        "doc0044"
+      ],
+      "Answer": {
+        "Value": "The Blind Beggar",
+        "NormalizedValue": "blind beggar",
+        "Aliases": [
+          "The Blind Beggar",
+          "Blind Beggar"
+        ],
+        "NormalizedAliases": [
+          "blind beggar"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_1340",
+      "Question": "In which country was the first permanent bungee jumping site situated?",
+      "TargetDocIds": [
+        "doc0045"
+      ],
+      "Answer": {
+        "Value": "New Zealand",
+        "NormalizedValue": "new zealand",
+        "Aliases": [
+          "N Z",
+          "Nouvelle-Zelande",
+          "Kiwiland",
+          "New Zealand's",
+          "New Zealand.",
+          "Nz",
+          "New Zealand,",
+          "NEW Z",
+          "N Zealand",
+          "NEW ZEALAND",
+          "New Zealend",
+          "Administrative divisions of new zealand",
+          "New Zaeland",
+          "N z",
+          "Kiwistan",
+          "Enzed",
+          "NewZealand",
+          "NZ",
+          "Name of New Zealand",
+          "Staten Landt",
+          "New+Zealand",
+          "NZL",
+          "Nu Tirani",
+          "Neo Zealand",
+          "ISO 3166-1:NZ",
+          "New Zealnd",
+          "AoTeAroa",
+          "Sheepland",
+          "Aotearoa / New Zealand",
+          "Subdivisions of New Zealand",
+          "Its got that new zeal",
+          "New Zealand",
+          "Newzealand",
+          "New Zeland",
+          "New-Zealand",
+          "New Zeeland",
+          "Administrative divisions of New Zealand",
+          "New Zealnad",
+          "Staten Land",
+          "N.Z.",
+          "Staaten land",
+          "New.Zealand",
+          "Mew Zealand",
+          "Maoriland",
+          "N. Zealand",
+          "Etymology of New Zealand",
+          "New Xealand",
+          "Māoria",
+          "New zelanad",
+          "Niu Tireni",
+          "New zealand",
+          "New zeland",
+          "Nova Zeelandia",
+          "New zeeland"
+        ],
+        "NormalizedAliases": [
+          "newzealand",
+          "new zealand",
+          "aotearoa",
+          "kiwistan",
+          "new zeland",
+          "staten land",
+          "staten landt",
+          "neo zealand",
+          "new zeeland",
+          "mew zealand",
+          "new zealand s",
+          "new zealend",
+          "iso 3166 1 nz",
+          "nova zeelandia",
+          "aotearoa new zealand",
+          "nu tirani",
+          "subdivisions of new zealand",
+          "n zealand",
+          "new zealnd",
+          "new zealnad",
+          "new xealand",
+          "administrative divisions of new zealand",
+          "maoriland",
+          "nzl",
+          "niu tireni",
+          "new z",
+          "its got that new zeal",
+          "n z",
+          "name of new zealand",
+          "enzed",
+          "nz",
+          "new zaeland",
+          "new zelanad",
+          "sheepland",
+          "etymology of new zealand",
+          "kiwiland",
+          "māoria",
+          "staaten land",
+          "nouvelle zelande"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_653",
+      "Question": "How old was Jimi Hendrix when he died?",
+      "TargetDocIds": [
+        "doc0046"
+      ],
+      "Answer": {
+        "Value": "27",
+        "NormalizedValue": "27",
+        "Aliases": [
+          "27",
+          "twenty-seven"
+        ],
+        "NormalizedAliases": [
+          "27",
+          "twenty seven"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_515",
+      "Question": "Art Garfunkel trained for which profession although he didn't qualify?",
+      "TargetDocIds": [
+        "doc0047"
+      ],
+      "Answer": {
+        "Value": "Architect",
+        "NormalizedValue": "architect",
+        "Aliases": [
+          "Master Builder (occupation)",
+          "Master builder (occupation)",
+          "Registered Architect",
+          "Architects",
+          "Architecht",
+          "Architect",
+          "HOK Canada, Inc.",
+          "Stanford Downey Architects Inc.",
+          "Graziani + Corazza",
+          "Architechts",
+          "Clifford & Lawrie"
+        ],
+        "NormalizedAliases": [
+          "master builder occupation",
+          "graziani corazza",
+          "architecht",
+          "clifford lawrie",
+          "architechts",
+          "architects",
+          "registered architect",
+          "hok canada inc",
+          "architect",
+          "stanford downey architects inc"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_1754",
+      "Question": "On the Internet what is Spam?",
+      "TargetDocIds": [
+        "doc0048"
+      ],
+      "Answer": {
+        "Value": "Junk mail",
+        "NormalizedValue": "junk mail",
+        "Aliases": [
+          "Junk mail (disambiguation)",
+          "Junkmail",
+          "Junkmailing",
+          "Junk mail",
+          "Junk Mail"
+        ],
+        "NormalizedAliases": [
+          "junkmail",
+          "junkmailing",
+          "junk mail",
+          "junk mail disambiguation"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_2265",
+      "Question": "Who did Dr. Crippen murder?",
+      "TargetDocIds": [
+        "doc0049"
+      ],
+      "Answer": {
+        "Value": "His wife",
+        "NormalizedValue": "his wife",
+        "Aliases": [
+          "His wife"
+        ],
+        "NormalizedAliases": [
+          "his wife"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_847",
+      "Question": "What was the Paramount Film Company originally called?",
+      "TargetDocIds": [
+        "doc0050"
+      ],
+      "Answer": {
+        "Value": "Famous Players Film Company",
+        "NormalizedValue": "famous players film company",
+        "Aliases": [
+          "Raleigh Studios",
+          "Famous Players Film Company",
+          "The Famous Players",
+          "Celebrated Players Film Corporation"
+        ],
+        "NormalizedAliases": [
+          "famous players film company",
+          "raleigh studios",
+          "famous players",
+          "celebrated players film corporation"
+        ]
+      }
+    }
+  ],
+  "Domain": "Wikipedia",
+  "VerifiedEval": false,
+  "Version": 1.0
+}

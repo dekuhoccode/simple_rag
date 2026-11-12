@@ -1,0 +1,2906 @@
+{
+  "timestamp": "2026-11-12 08:22:45",
+  "configuration": {
+    "num_samples_evaluated": 50,
+    "top_k": 3,
+    "embedding_model": "BAAI/bge-small-en-v1.5",
+    "llm_model": "gemini-3.8-flash",
+    "llm_base_url": "https://aiplatform.googleapis.com/v1/projects/my-first-rag-514304/locations/global/publishers/google/models",
+    "chunk_size": 500,
+    "chunk_overlap": 50
+  },
+  "retrieval_metrics": {
+    "hit_rate": 68.0,
+    "mrr": 0.57,
+    "recall": 36.0
+  },
+  "generation_metrics": {
+    "simple_rag": {
+      "exact_match": 44.0,
+      "f1_score": 47.0
+    },
+    "no_rag": {
+      "exact_match": 0.0,
+      "f1_score": 0.0
+    },
+    "delta_exact_match": 44.0
+  },
+  "detailed_results": [
+    {
+      "question_id": "tc_905",
+      "question": "Who first hosted Family Feud?",
+      "ground_truth_answer": "Richard Dawson",
+      "aliases": [
+        "Dick Dawson",
+        "Richard Dawson",
+        "Dickie Dawson",
+        "Colin Lionel Emm",
+        "Colin Emm"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0001.md_c0",
+          "score": 0.7934,
+          "snippet": "# Family Feud Family Feud is an American television game show created by Mark Goodson where two families compete to name the most popular responses to..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0001.md_c42",
+          "score": 0.7351,
+          "snippet": "tellite channel Challenge. Reception Family Feud won the Daytime Emmy Award for Outstanding Game/Audience Participation Show in 1977, and the show has..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0001.md_c24",
+          "score": 0.7261,
+          "snippet": "until the end of the 1993–94 season. Dawson returned to the show at the request of Mark Goodson Productions for the 1994–95 season. When Feud returned..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "I do not know",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.5333,
+        "answer_relevance": 0.3,
+        "groundedness": 0.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_280",
+      "question": "Who directed the classic 30s western Stagecoach?",
+      "ground_truth_answer": "John Ford",
+      "aliases": [
+        "John Ford (1895-1973)",
+        "Sean O'Feeney",
+        "John Ford (film director)",
+        "Ford, John (1895-1973)",
+        "Argosy Pictures",
+        "John Ford statue",
+        "John Martin O'Feeney",
+        "John Ford (director)",
+        "Cavalry trilogy",
+        "John O'Feeney",
+        "Sean Aloysius O'Feeney",
+        "Ford, John",
+        "John Ford"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0002.md_c0",
+          "score": 0.7573,
+          "snippet": "# Stagecoach (1939 film) Stagecoach is a 1939 American Western film directed by John Ford, starring Claire Trevor and John Wayne in his breakthrough r..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0002.md_c25",
+          "score": 0.6967,
+          "snippet": "s from Kayenta. Reception Stagecoach has been lauded as one of the most influential films ever made. Orson Welles argued that it was a perfect textboo..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0002.md_c27",
+          "score": 0.6776,
+          "snippet": "in ten \"classic\" American film genres—after polling over 1,500 people from the creative community. Stagecoach was acknowledged as the ninth best film ..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "John Ford",
+        "exact_match": 1.0,
+        "f1_score": 1.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.5714,
+        "answer_relevance": 0.5,
+        "groundedness": 1.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_2202",
+      "question": "What are the international registration letters of a vehicle from Iceland?",
+      "ground_truth_answer": "IS",
+      "aliases": [
+        "I S",
+        "I.s.",
+        "IS",
+        "I.S.",
+        "Is.",
+        "IS (disambiguation)",
+        "Is"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0003.md_c168",
+          "score": 0.8178,
+          "snippet": "icle registration plates in Iceland are issued by the Icelandic Transport Authority and are made in the state penitentiary. The plates are made of alu..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0003.md_c172",
+          "score": 0.7671,
+          "snippet": "sued between 1989 and 2004 are required to get a national identifier sticker so they look like the new plates, although this law is not widely enforce..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0003.md_c167",
+          "score": 0.7457,
+          "snippet": "ehicles from one member state do not need to display the oval while within another state, provided the number plate is in the common EU standard forma..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "I do not know",
+        "exact_match": 0.0,
+        "f1_score": 0.3333
+      },
+      "rag_triad": {
+        "context_relevance": 0.9091,
+        "answer_relevance": 0.3,
+        "groundedness": 0.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_1943",
+      "question": "In which North African country was Mohammed Al-Fayed, owner of Harrods department store in London, born?",
+      "ground_truth_answer": "Egypt",
+      "aliases": [
+        "EGY",
+        "Arab Republic of Egypt",
+        "A .R . EGYPT",
+        "The Arab Republic of Egypt",
+        "Eygpt",
+        "Etymology of Egypt",
+        "مصر",
+        "Kemmet",
+        "Gift of the Nile",
+        "Arab Republic Of Egypt",
+        "Names of Egypt",
+        "Miṣr",
+        "A .R . Egypt",
+        "Eytp",
+        "National identity of Egyptians",
+        "Jumhuriyat Misr al'Arabiyah",
+        "Eypt",
+        "Egyptian Republic",
+        "Ejipt",
+        "Name of Egypt",
+        "Egipto",
+        "Kimet",
+        "جمهوريّة مصرالعربيّة",
+        "Egypte",
+        "Egypt (name)",
+        "Egypt",
+        "جمهورية مصرالعربية",
+        "A.R. Egypt",
+        "Republic of Eygpt",
+        "Égypte",
+        "Second Egyptian Republic",
+        "Egipt",
+        "ISO 3166-1:EG",
+        "Egypt info"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0004.md_c70",
+          "score": 0.6738,
+          "snippet": "t department store the KaDeWe in Berlin has a retail space of 650000 sqft. Criticism Harrods and Mohamed Al-Fayed were criticised for selling real ani..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0004.md_c7",
+          "score": 0.6517,
+          "snippet": "a group that included the famous London store Harrods, from Roland 'Tiny' Rowland, the head of Lonrho. In 1985, he and his brothers bought the remaini..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0004.md_c40",
+          "score": 0.6488,
+          "snippet": " an upmarket department store located on Brompton Road in Knightsbridge, in the Royal Borough of Kensington and Chelsea, London. The Harrods brand als..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "I do not know",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.7556,
+        "answer_relevance": 0.3,
+        "groundedness": 0.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_1704",
+      "question": "Which grand slam did Pete Sampras not win in the 20th century?",
+      "ground_truth_answer": "French",
+      "aliases": [
+        "Français",
+        "Francaise",
+        "The French",
+        "Frenchness",
+        "French",
+        "Francais",
+        "French (disambiguation)",
+        "Frrench"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0005.md_c116",
+          "score": 0.7681,
+          "snippet": "n the Davis Cup in 1995. Notable Sampras-Agassi matches of 1995 included the finals of the Australian Open, the Newsweek Champions Cup, the Lipton Int..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0005.md_c68",
+          "score": 0.7648,
+          "snippet": "pras Petros \"Pete\" Sampras () (born August 12, 1971) is a retired American tennis player and former world No. 1 regarded as one of the greatest player..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0005.md_c84",
+          "score": 0.7463,
+          "snippet": "n title. He finished the year as the clear no. 1 and set a new ATP Tour record that year by becoming the first player to serve more than 1,000 aces in..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "I do not know",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.7222,
+        "answer_relevance": 0.3,
+        "groundedness": 0.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_1069",
+      "question": "In which American state is the Isabella Stewart Gardner Museum?",
+      "ground_truth_answer": "Massachusetts",
+      "aliases": [
+        "Masachusetts",
+        "Masshole Commonwealth",
+        "Massachusetts (state)",
+        "Massachusetts culture",
+        "Massachusetts, United States",
+        "Masachussetts",
+        "Commonwealth of Masachusetts",
+        "The Bay State",
+        "Commonwealth of Masachussets",
+        "Culture of Massachusetts",
+        "Commonwealth of Massachusetts",
+        "MA (state)",
+        "Massechusetts",
+        "Commonwealth of Masachusets",
+        "Commonwealth of Massachussets",
+        "Religion in Massachusetts",
+        "Masschusetts",
+        "Masachussets",
+        "Commonwealth of Massachussetts",
+        "Massachusetts",
+        "Transport in Massachusetts",
+        "Massachusite",
+        "Economy of Massachusetts",
+        "6th State",
+        "Massitchusits",
+        "Massachsuetts",
+        "Commonwealth of Masachussetts",
+        "The Commonwealth of Massachusetts",
+        "Massachussets",
+        "Massachus",
+        "Massechussets",
+        "Transportation in Massachusetts",
+        "Massachusets",
+        "Masachusets",
+        "Mass.",
+        "Massachusetts state",
+        "Sixth State",
+        "Massachusites",
+        "Massacheusetts",
+        "Most Serene Commonwealth of Massachusetts",
+        "US-MA",
+        "Commonwealth of Massachusets",
+        "Massachussetts",
+        "Massachusetts (U.S. state)",
+        "Taxachusetts",
+        "State of Massachusetts",
+        "Massachusettes",
+        "Massachusettsan",
+        "Education in Massachusetts"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0006.md_c0",
+          "score": 0.7712,
+          "snippet": "# Isabella Stewart Gardner Museum The Isabella Stewart Gardner Museum (ISGM) or Fenway Court, as the museum was known during Isabella Stewart Gardner'..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0006.md_c2",
+          "score": 0.6954,
+          "snippet": "ard displays. In accordance with the will of Isabella Stewart Gardner, admittance is discounted to those wearing Boston Red Sox memorabilia, and is fr..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0006.md_c11",
+          "score": 0.6871,
+          "snippet": "Built to evoke a 15th-century Venetian palace, the museum itself provides an atmospheric setting for Isabella Stewart Gardner's inventive creation. Ga..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "Massachusetts",
+        "exact_match": 1.0,
+        "f1_score": 1.0
+      },
+      "rag_triad": {
+        "context_relevance": 1.0,
+        "answer_relevance": 0.5,
+        "groundedness": 1.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_866",
+      "question": "Who was the first person after Scott to reach the South Pole overland?",
+      "ground_truth_answer": "Edmond Hillary",
+      "aliases": [
+        "Sir Edmund Hillary",
+        "Edmund Hilary",
+        "Sir Ed",
+        "Sir Edmund Hilary",
+        "Sir Edmund Percival Hillary",
+        "Edmond Hillary",
+        "Ed Hillary",
+        "Edmond hillary",
+        "Sir Edmund",
+        "Edmund Percival Hillary",
+        "Edmund Hillary"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0007.md_c13",
+          "score": 0.8116,
+          "snippet": "unaware of Amundsen's secretive expedition. Scott and four other men reached the South Pole on January 17, 1912, thirty-four days after Amundsen. On t..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0007.md_c11",
+          "score": 0.7961,
+          "snippet": "o the South Pole was made by British explorer Robert Falcon Scott on the Discovery Expedition of 1901–04. Scott, accompanied by Ernest Shackleton and ..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0007.md_c12",
+          "score": 0.7763,
+          "snippet": "ached 88°23' S – 112 statute miles from the Pole – before being forced to turn back. The first men to reach the Geographic South Pole were the Norwegi..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "I do not know",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      },
+      "rag_triad": {
+        "context_relevance": 1.0,
+        "answer_relevance": 0.3,
+        "groundedness": 0.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "qz_1516",
+      "question": "Who bought Chelsea football club for £1 in 1982?",
+      "ground_truth_answer": "Ken Bates",
+      "aliases": [
+        "Ken Bates",
+        "Kenneth Bates"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0008.md_c10",
+          "score": 0.7864,
+          "snippet": "the support, which was to plague the club throughout the decade. In 1982, Chelsea were, at the nadir of their fortunes, acquired by Ken Bates for the ..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0008.md_c55",
+          "score": 0.7753,
+          "snippet": "and the only club to hold the Champions League and the Europa League at the same time. Ownership and finances Chelsea Football Club were founded by Gu..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0008.md_c72",
+          "score": 0.7126,
+          "snippet": "1931) is a British businessman, football executive and hotelier. He was involved in forming the Premier League, the development of Wembley Stadium and..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "Ken Bates",
+        "exact_match": 1.0,
+        "f1_score": 1.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.963,
+        "answer_relevance": 0.5,
+        "groundedness": 1.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_719",
+      "question": "River Phoenix died during the making of which movie?",
+      "ground_truth_answer": "Dark Blood",
+      "aliases": [
+        "Dark Blood (film)",
+        "Dark Blood"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0009.md_c49",
+          "score": 0.7416,
+          "snippet": "ling well, and thought he was overdosing. Forrest said that Phoenix rallied and re-entered the crowd, but moments later someone frantically called out..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0009.md_c20",
+          "score": 0.6968,
+          "snippet": "s role in Running on Empty. Phoenix jumped to his feet during the ceremony when Kevin Kline beat him for the Oscar. \"I had to stop River from running ..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0009.md_c54",
+          "score": 0.6935,
+          "snippet": "aprio in the lead. *He had expressed interest in playing the 19th-century poet Arthur Rimbaud in Total Eclipse (1995) by Polish director Agnieszka Hol..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "I do not know",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.8519,
+        "answer_relevance": 0.3,
+        "groundedness": 0.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "qz_196",
+      "question": "How many pieces are there in a standard set of dominoes?",
+      "ground_truth_answer": "28",
+      "aliases": [
+        "28",
+        "twenty-eight"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0010.md_c17",
+          "score": 0.8114,
+          "snippet": "longs both to the 6 suit and the suit of doubles. The most common domino sets commercially available are Double Six (with 28 tiles) and Double Nine (w..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0010.md_c0",
+          "score": 0.7885,
+          "snippet": "# Dominoes Dominoes (or dominos) is a game played with rectangular \"domino\" tiles. The domino gaming pieces make up a domino set, sometimes called a d..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0010.md_c49",
+          "score": 0.7658,
+          "snippet": " 100 glyphs. In this arrangement, both orientations are present: horizontally both tiles [1|6] and [6|1] exist, while a regular game set only has one ..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "28",
+        "exact_match": 1.0,
+        "f1_score": 1.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.7879,
+        "answer_relevance": 0.5,
+        "groundedness": 0.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_304",
+      "question": "Which 90s sci fi series with James Belushi was based on Bruce Wagner's comic strip of the same name?",
+      "ground_truth_answer": "Wild Palms",
+      "aliases": [
+        "Wild Palms"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0011.md_c26",
+          "score": 0.6652,
+          "snippet": "ies\", deals with the dangers of politically motivated abuse of mass media technology, virtual realities in particular. It was based on a comic strip w..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0011.md_c14",
+          "score": 0.5968,
+          "snippet": "ve *Hank Rippy (Hello, Trudy!) *Man on the Street Jesse Donnelly *That White Guy, a stereotypical Caucasian man who can rap Celebrity impersonations *..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0011.md_c48",
+          "score": 0.5916,
+          "snippet": "ic elements include 1960s cars (like Studebaker police vehicles) and Edwardian fashion. References in Wild Palms Non-fictitious references While the c..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "Wild Palms",
+        "exact_match": 1.0,
+        "f1_score": 1.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.7193,
+        "answer_relevance": 0.5,
+        "groundedness": 1.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_298",
+      "question": "Which was the only eastern bloc country to participate in the 1984 LA Olympics?",
+      "ground_truth_answer": "Rumania",
+      "aliases": [
+        "ISO 3166-1:RO",
+        "Romanian state",
+        "ROMANIA",
+        "Roumania",
+        "Etymology of Romania",
+        "Romainia",
+        "Romînia",
+        "North Danubian region",
+        "Carpathian Danubian space",
+        "ROU",
+        "România",
+        "Romanian State",
+        "Roumanie",
+        "Country ROM",
+        "Rromania",
+        "Romania",
+        "Republic of Romania",
+        "RO (country)",
+        "Rumänien",
+        "Danubian-Carpathian Area",
+        "Rumania",
+        "Austro-Hungarian Empire (Romania)",
+        "Rumunia"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0012.md_c186",
+          "score": 0.7216,
+          "snippet": " known as the Games of the XXIII Olympiad, was an international multi-sport event held in Los Angeles, California, United States in 1984. When Tehran,..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0012.md_c234",
+          "score": 0.7016,
+          "snippet": "em Televisyen Malaysia Berhad TV3 a member of New Straits Times Press (live direct television broadcast transmission) *: RAI *: TVN, UC-TV *: Argentin..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0012.md_c241",
+          "score": 0.7002,
+          "snippet": "the 1984 Summer Olympics because of “United States interference in the Middle East, its support for the regime occupying Jerusalem, and the crimes bei..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "I do not know",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.8462,
+        "answer_relevance": 0.3,
+        "groundedness": 1.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_759",
+      "question": "\"In which movie did Garbo say, \"\"I want to be alone\"\".\"",
+      "ground_truth_answer": "Grand Hotel",
+      "aliases": [
+        "The grand hotel",
+        "Grand Hôtel",
+        "Grand hotel",
+        "The Grand Hotel",
+        "Grand Hotel",
+        "Grand Hotel (disambiguation)"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0013.md_c1",
+          "score": 0.6438,
+          "snippet": "of Classic Hollywood Cinema, after Katharine Hepburn, Bette Davis, Audrey Hepburn, and Ingrid Bergman. Garbo launched her career with a secondary role..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0013.md_c75",
+          "score": 0.6113,
+          "snippet": " films are artistically exceptional, and that many are simply bad. It has been said, however, that her commanding and magnetic performances usually ov..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0013.md_c50",
+          "score": 0.6092,
+          "snippet": "sona From the early days of her career, Garbo avoided industry social functions, preferring to spend her time alone or with friends. She never signed ..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "I do not know",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.4848,
+        "answer_relevance": 0.3,
+        "groundedness": 0.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_1635",
+      "question": "Who was the only female victim to be killed off in the opening credit sequence in Police Squad?",
+      "ground_truth_answer": "Florence Henderson",
+      "aliases": [
+        "Florence Agnes Henderson",
+        "Florence Henderson",
+        "Florence Hendersen",
+        "Flo Henderson"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0027.md_c60",
+          "score": 0.5868,
+          "snippet": "stic serial killer, whose insight might prove useful in the pursuit of a serial killer nicknamed \"Buffalo Bill\", who skins his female victims' corpses..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0014.md_c10",
+          "score": 0.5586,
+          "snippet": "r Rex Hamilton, who dramatically returns gunfire to John Wilkes Booth. Hamilton never appeared in the show itself. Another recurring gag used in the o..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0011.md_c41",
+          "score": 0.5462,
+          "snippet": " alerts Grace to a danger in her own home. * Charles Rocket as Stitch Walken, a stand-up comedian who is also a surreptitious agent of the \"Friends\". ..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "Florence Henderson",
+        "exact_match": 1.0,
+        "f1_score": 1.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.6667,
+        "answer_relevance": 0.5,
+        "groundedness": 1.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_1816",
+      "question": "Who wrote My Life and Loves in 1926, originally banned in the US?",
+      "ground_truth_answer": "Frank Harris",
+      "aliases": [
+        "Frank Harris"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0015.md_c0",
+          "score": 0.7645,
+          "snippet": "# My Life and Loves My Life and Loves is the autobiography of the Ireland-born, naturalized-American writer and editor Frank Harris (1856–1931). As pu..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0015.md_c6",
+          "score": 0.7009,
+          "snippet": " 4&ved0CBEQ6AEwAzgK#v onepage&q%22My%20Life%20and%20Loves%22%20%22frank%20Harris%22%20%20Trocchi&f false Exiled in Paris Richard Wright, James Baldwin..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0015.md_c5",
+          "score": 0.6259,
+          "snippet": "hi, and described the result as having only 20% of its content derived from the nominal source material. It was published by Girodias's Olympia Press ..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "Frank Harris",
+        "exact_match": 1.0,
+        "f1_score": 1.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.8889,
+        "answer_relevance": 0.5,
+        "groundedness": 1.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "qz_1112",
+      "question": "From which animal does Haggis come?",
+      "ground_truth_answer": "Sheep",
+      "aliases": [
+        "Sheep",
+        "Ovis aries",
+        "Domestic ram",
+        "Yorkshire Leicester",
+        "Persian Lamb",
+        "🐏",
+        "🐑",
+        "Bleat",
+        "Domesticated sheep",
+        "Ovine",
+        "Domestic ewe",
+        "Domestic sheep",
+        "Sheeps",
+        "Agnine",
+        "Feral sheep",
+        "Domestic Sheep",
+        "Ovis orientalis aries",
+        "Sheep sounds",
+        "Sheep description",
+        "Ram (sheep)",
+        "Yowe",
+        "Sheep, domestic"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0016.md_c0",
+          "score": 0.7256,
+          "snippet": "# Haggis Haggis is a savoury pudding containing sheep's pluck (heart, liver and lungs); minced with onion, oatmeal, suet, spices, and salt, mixed with..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0016.md_c8",
+          "score": 0.6972,
+          "snippet": "vessel made from the animal's hide—was one way to make sure these parts were not wasted. Folklore In the absence of hard facts as to haggis' origins, ..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0016.md_c10",
+          "score": 0.6827,
+          "snippet": " is a small Scottish animal with longer legs on one side, so that it can run around the steep hills of the Scottish Highlands without falling over. Ac..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "sheep",
+        "exact_match": 1.0,
+        "f1_score": 1.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.5556,
+        "answer_relevance": 0.5,
+        "groundedness": 1.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_282",
+      "question": "Dave Gilmore and Roger Waters were in which rock group?",
+      "ground_truth_answer": "Pink Floyd",
+      "aliases": [
+        "Grey Floyd",
+        "Pink Floyd trivia",
+        "The Screaming Ab Dabs",
+        "Pink flowd",
+        "The Meggadeaths",
+        "The Architectural Abdabs",
+        "PINK FLOYD",
+        "Pink Flod",
+        "Pink Floyd",
+        "Pink Floyd Trivia",
+        "The Pink Floyd",
+        "Notable or frequent contributors to pink floyd",
+        "The Tea Set",
+        "Pinkfloyd",
+        "Pi5",
+        "Pink floid",
+        "Pink Floyd (band)",
+        "The T Set",
+        "Screaming abdabs",
+        "Notable or frequent contributors to Pink Floyd",
+        "The Megadeaths",
+        "Pik floyd",
+        "The Pink Floyd Sound",
+        "Pink floyd",
+        "The T-Set",
+        "The Screaming Abdabs",
+        "Clive Metcalfe",
+        "Meggadeaths"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0017.md_c0",
+          "score": 0.7731,
+          "snippet": "# Roger Waters George Roger Waters (born 6 September 1943) is an English singer, songwriter, multi-instrumentalist, and composer. In 1965, he co-found..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0017.md_c15",
+          "score": 0.6222,
+          "snippet": "Barrett and the arrival of David Gilmour in April 1968. Waters-led period Filling the void left by Barrett's departure in March 1968, Waters began to ..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0017.md_c7",
+          "score": 0.6153,
+          "snippet": "wing her husband's death, Mary Waters, also a teacher, moved with her two sons to Cambridge and raised them there. Roger Waters' earliest memory is of..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "Pink Floyd",
+        "exact_match": 1.0,
+        "f1_score": 1.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.8,
+        "answer_relevance": 0.5,
+        "groundedness": 1.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "qz_1693",
+      "question": "What name is given to the home of a beaver?",
+      "ground_truth_answer": "Lodge",
+      "aliases": [
+        "Lodge",
+        "Lodge (disambiguation)",
+        "Lodges",
+        "The Lodge (disambiguation)",
+        "The Lodge"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0018.md_c52",
+          "score": 0.7149,
+          "snippet": "mblem The importance of the beaver in the development of Canada through the fur trade led to its official designation as the national animal in 1975. ..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0018.md_c0",
+          "score": 0.7145,
+          "snippet": "# Beaver The beaver (genus Castor) is a primarily nocturnal, large, semiaquatic rodent. Castor includes two extant species, the North American beaver ..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0018.md_c17",
+          "score": 0.7095,
+          "snippet": "a small population of probably Eurasian beavers is being monitored in Devon. A trial re-introduction occurred in Scotland in May 2009. Feasibility stu..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "lodges",
+        "exact_match": 1.0,
+        "f1_score": 1.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.9333,
+        "answer_relevance": 0.3,
+        "groundedness": 1.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_1421",
+      "question": "What is Harrison Ford's real name?",
+      "ground_truth_answer": "Harrison Ford",
+      "aliases": [
+        "Harrison Ford (actor)",
+        "Harrison ford",
+        "Harrison Ford",
+        "Harison Ford",
+        "Ford, Harrison"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0019.md_c0",
+          "score": 0.7753,
+          "snippet": "# Harrison Ford Harrison Ford (born July 13, 1942) is an American actor and film producer. He gained worldwide fame for his starring roles as Han Solo..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0019.md_c30",
+          "score": 0.6519,
+          "snippet": "ng much of his personal life. He has two sons, Benjamin (born 1967) and Willard, with his first wife, Mary Marquardt, to whom he was married from 1964..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0019.md_c11",
+          "score": 0.6477,
+          "snippet": " of the earlier Harrison Ford until he came upon a star with his own name on the Hollywood Walk of Fame. Ford soon dropped the \"J\" and worked for Univ..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "I do not know",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.3333,
+        "answer_relevance": 0.3,
+        "groundedness": 1.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "qz_186",
+      "question": "What is the most popular natural attraction in Alaska?",
+      "ground_truth_answer": "Mount McKinley",
+      "aliases": [
+        "Denali North Peak",
+        "Mount McKinley",
+        "Mount McKinley North Peak",
+        "Mt McKinley (Denali)",
+        "Churchill peaks",
+        "Mount McKinley South Buttress",
+        "Highest mountain in North America",
+        "Большая Гора",
+        "Mount Mckinley",
+        "Mt. Denali",
+        "Mount mckinley",
+        "Mt McKinley",
+        "Mount McKinely",
+        "Mount McKinley East Buttress",
+        "Mt. McKinley",
+        "Mt. mckinley",
+        "Mount Denali",
+        "Denali East Buttress",
+        "Mount McKinley (Alaska)",
+        "Denali",
+        "Denali South Buttress",
+        "Mt mckinley"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0020.md_c128",
+          "score": 0.7564,
+          "snippet": " relatives, friends or acquaintances. Culture Some of Alaska's popular annual events are the Iditarod Trail Sled Dog Race that starts in Anchorage and..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0020.md_c89",
+          "score": 0.6584,
+          "snippet": "skan novelty. Anchorage and, to a lesser extent Fairbanks, is served by many major airlines. Because of limited highway access, air travel remains the..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0020.md_c62",
+          "score": 0.6288,
+          "snippet": "cal Survey estimates that there are of undiscovered, technically recoverable gas from natural gas hydrates on the Alaskan North Slope. Alaska also off..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "I do not know",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.7407,
+        "answer_relevance": 0.3,
+        "groundedness": 0.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_1693",
+      "question": "Who beat Tim Henman in his first Wimbledon singles semifinal?",
+      "ground_truth_answer": "Pete Sampras",
+      "aliases": [
+        "Sampras",
+        "Sampras, Pete",
+        "Pete Sampras",
+        "Peter Sampras",
+        "Petros %22Pete%22 Sampras"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0021.md_c0",
+          "score": 0.78,
+          "snippet": "# Tim Henman Timothy Henry \"Tim\" Henman (born 6 September 1974) is a retired English professional tennis player. Henman played a serve-and-volley styl..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0021.md_c44",
+          "score": 0.7258,
+          "snippet": " the first three rounds with ease, winning over Artem Derepasko, Martin Lee, and Sjeng Schalken. However, it took five sets to defeat the 22nd America..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0021.md_c57",
+          "score": 0.7163,
+          "snippet": "of 2006 was the Qatar Open, where he lost in the second round to Tommy Haas 2–6, 6–7 and 7–5 in tie-break. In that year's Australian Open he was defea..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "I do not know",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.9333,
+        "answer_relevance": 0.3,
+        "groundedness": 0.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "qz_547",
+      "question": "What is the longest word can be typed using only the top row of letters on a typewriter?",
+      "ground_truth_answer": "Typewriter",
+      "aliases": [
+        "Typewriter ribbons",
+        "Typewriter carriage",
+        "Personal word processor",
+        "Typewrite",
+        "Typewriters",
+        "Type-write",
+        "Type-writerly",
+        "Type machine",
+        "Electric typewriter",
+        "Typewrites",
+        "Typewriter",
+        "Type written",
+        "Electronic word processor",
+        "Typewriting",
+        "Typebasket",
+        "Type writer",
+        "Type writes",
+        "The type writer",
+        "Typewritten",
+        "Typewriterly",
+        "Type-writing",
+        "The first typewriter",
+        "Type-written",
+        "Typebars",
+        "Typewriter keyboard",
+        "Type wrote",
+        "Type-wrote",
+        "Type writers",
+        "Type write",
+        "Typewrote",
+        "Type-writers",
+        "Personal Word Processor",
+        "Electronic typewriter",
+        "Typebar",
+        "Type writing",
+        "Type-writes",
+        "Type-writer",
+        "Electromechanical typewriter",
+        "Manual typewriter",
+        "Type bar",
+        "Typing machine",
+        "Type writerly",
+        "Typewriter eraser"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0022.md_c91",
+          "score": 0.7383,
+          "snippet": " able to easily type out the example word \"typewriter\" without having learned the full keyboard layout , because \"typewriter\" can be spelled purely on..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0022.md_c128",
+          "score": 0.7354,
+          "snippet": "ecited by Michael Winslow, voice sound effect performer Michael Winslow recreates the sounds of 32 typewriters from history. * The word \"typewriter\" i..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0022.md_c89",
+          "score": 0.6861,
+          "snippet": " QWERTY layout is not the most efficient layout possible for the English language, since it requires a touch-typist to move his or her fingers between..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "uropyoureter",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.7843,
+        "answer_relevance": 0.3,
+        "groundedness": 1.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_2236",
+      "question": "In WWII, who was the head of the Nazi party's security service?",
+      "ground_truth_answer": "Reinhard Heidrich",
+      "aliases": [
+        "Reinhard Heidrich",
+        "Rinehardt Heydrich",
+        "Himmler's Evil Genius",
+        "ReinhardHeydrich",
+        "Heidrich, Rinehardt",
+        "Reinhard Hydrich",
+        "Reinhard Hydrick",
+        "The Young Evil God of Death",
+        "Rinehardt Heidrich",
+        "Heydrich",
+        "Heydrich Reinhard",
+        "Reinhard Hidrich",
+        "Reinhard Hidrick",
+        "Rhinehardt Heidrich",
+        "Reinhard Heydrick",
+        "The Butcher of Prague",
+        "Heidrich, Reinhardt",
+        "Heidrich, Rhinehardt",
+        "Reinhardt Heydrich",
+        "Rhinehardt Heydrich",
+        "Reinhard Heydrich",
+        "Rhinehart Heidrich",
+        "Reihnard Heidrich",
+        "Rhinehard Heydrich",
+        "Heydrich Reinhart",
+        "Rheinhard Heydrich",
+        "Heydrich, Reinhard",
+        "Rinehard Heidrich",
+        "Butcher of Prague",
+        "HeydrichReinhardt",
+        "Rhinehart Heydrich",
+        "Heidrich, Rhinehart",
+        "Reinhart heidrich",
+        "ReinhardtHeydrich",
+        "Heydrich, Reinhart",
+        "Heydrich, Reinhardt",
+        "Heydrich,Reinhardt",
+        "Rinehard Heydrich",
+        "Heydrich Reinhardt",
+        "Reinhart Heydrich",
+        "Heidrich, Rinehart",
+        "Young Evil God of Death",
+        "Heidrich, Reinhart",
+        "Rinehart Heydrich",
+        "HeydrichReinhard",
+        "Heydrich,Reinhard",
+        "Reinhard Tristan Eugen Heydrich",
+        "Rhinehard Heidrich",
+        "Heidrich, Rhinehard",
+        "Heidrich, Rinehard",
+        "Heydrich,Reinhart",
+        "Heidrich, Reinhard",
+        "Rinehart Heidrich",
+        "Himler's Evil Genius"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0023.md_c121",
+          "score": 0.7077,
+          "snippet": "as head of the SD. These events further extended Himmler’s control of the security mechanism of the Reich, which by proxy also strengthened the survei..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0023.md_c79",
+          "score": 0.67,
+          "snippet": " the party chairman (\"Der Führer\"), who held absolute power and full command over the party. All other party offices were subordinate to his position ..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0023.md_c76",
+          "score": 0.6593,
+          "snippet": " (SD, formally the \"Security Service of the Reichsführer-SS\") that had been created in 1931 as an intraparty intelligence became the de facto intellig..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "I do not know",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.9697,
+        "answer_relevance": 0.3,
+        "groundedness": 0.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_56",
+      "question": "What claimed the life of singer Kathleen Ferrier?",
+      "ground_truth_answer": "Cancer",
+      "aliases": [
+        "Cancer pathology",
+        "Deaths by cancer",
+        "Anti-cancer",
+        "Cancer (disease)",
+        "Cancerophobia",
+        "Malignant lesion",
+        "Cancer medication",
+        "Malignant tumors",
+        "Cancer signs",
+        "Malignant neoplasm",
+        "Invasive (cancer)",
+        "Malignant Neoplasms",
+        "Malignant growth",
+        "Sporadic cancer",
+        "Malignant cancer",
+        "Tumour virus",
+        "Cancer en cuirasse",
+        "Microtumor",
+        "Malignant neoplasms",
+        "Malignant tumour",
+        "Carcinophobia",
+        "Malignacy",
+        "Cancer patient",
+        "Epithelial cancers",
+        "Solid cancer",
+        "Cancers",
+        "Tumor medication",
+        "Malignant neoplastic disease",
+        "AIDS-related cancer",
+        "Invasive cancer",
+        "Cancer therapy",
+        "Cancerous tumor",
+        "Cancer",
+        "Financial toxicity",
+        "Cancer diagnosis",
+        "Cancer (medicine)",
+        "Malignant tumor",
+        "Cancerous",
+        "Borderline (cancer)",
+        "Signs of cancer",
+        "Malignancies",
+        "Cancer aromatase"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0024.md_c0",
+          "score": 0.8367,
+          "snippet": "# Kathleen Ferrier Kathleen Mary Ferrier, CBE (22 April 1912 - 8 October 1953) was an English contralto singer who achieved an international reputatio..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0024.md_c59",
+          "score": 0.7767,
+          "snippet": "remitting. She died at University College Hospital on 8 October 1953, aged 41; the date for which, while still hopeful of recovery, she had undertaken..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0024.md_c58",
+          "score": 0.7359,
+          "snippet": ", the first female vocalist to receive this honour since Muriel Foster in 1914. In a letter to the secretary of the Society she wrote that this \"unbel..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "cancer",
+        "exact_match": 1.0,
+        "f1_score": 1.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.75,
+        "answer_relevance": 0.5,
+        "groundedness": 1.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_1152",
+      "question": "Nigel Hawthorne was Oscar nominated for The Madness of which King?",
+      "ground_truth_answer": "George",
+      "aliases": [
+        "Gheevarghese",
+        "Vargheese",
+        "Ghevargheese",
+        "George (disambiguation)",
+        "Ghevarghese",
+        "Gheevargheese",
+        "George",
+        "Vargis",
+        "Geroge",
+        "George's",
+        "GEORGE"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0025.md_c1",
+          "score": 0.7422,
+          "snippet": "Actor for portraying King George III in The Madness of King George (1994). He later won the BAFTA TV Award for Best Actor, for the 1996 miniseries The..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0025.md_c0",
+          "score": 0.6893,
+          "snippet": "# Nigel Hawthorne Sir Nigel Barnard Hawthorne CBE (5 April 1929 – 26 December 2001) was an English actor. He portrayed Sir Humphrey Appleby, the Perma..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0025.md_c6",
+          "score": 0.6027,
+          "snippet": " He won a sixth BAFTA for the 1996 TV mini-series The Fragile Heart. Hawthorne was also a voice actor, and lent his voice to two Disney films: in 1985..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "King George III",
+        "exact_match": 0.0,
+        "f1_score": 0.5
+      },
+      "rag_triad": {
+        "context_relevance": 0.9091,
+        "answer_relevance": 0.5,
+        "groundedness": 1.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_2687",
+      "question": "Which builder of steam engines formed a successful partnership with Matthew Boulton?",
+      "ground_truth_answer": "James Watt",
+      "aliases": [
+        "James Watt (inventor)",
+        "James Watt",
+        "James Watt of Scotland",
+        "James Watt of Scottland",
+        "Watt, James"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0026.md_c113",
+          "score": 0.8611,
+          "snippet": "heat source for district heating via saturated low-pressure steam. # Matthew Boulton Matthew Boulton (; 3 September 1728 – 17 August 1809) was an Engl..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0026.md_c232",
+          "score": 0.7322,
+          "snippet": " his use of high pressure steam – all of his engines used steam at near atmospheric pressure. Patent trials Edward Bull started constructing engines f..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0026.md_c249",
+          "score": 0.7222,
+          "snippet": "ons, Gregory and James Jr. were heavily involved in the management of the enterprise. In 1800, the year of Watt's retirement, the firm made a total of..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "James Watt",
+        "exact_match": 1.0,
+        "f1_score": 1.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.8889,
+        "answer_relevance": 0.5,
+        "groundedness": 1.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_1128",
+      "question": "Which film director guested as the FBI Director in The Silence of the Lambs?",
+      "ground_truth_answer": "Roger Corman",
+      "aliases": [
+        "The Doorway (film)",
+        "Roger William Corman",
+        "Roger Corman"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0027.md_c56",
+          "score": 0.7011,
+          "snippet": ") * Rob Zombie (The Devil's Rejects - 2005) # The Silence of the Lambs (film) The Silence of the Lambs is a 1991 American psychological horror-thrille..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0027.md_c57",
+          "score": 0.6958,
+          "snippet": ". In the film, Clarice Starling, a young U.S. FBI trainee, seeks the advice of the imprisoned Dr. Lecter to apprehend another serial killer, known onl..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0027.md_c78",
+          "score": 0.6838,
+          "snippet": "rious recordings that serial killers Lawrence Bittaker and Roy Norris had made of themselves raping and torturing a 16-year-old girl. According to Dou..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "I do not know",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.9697,
+        "answer_relevance": 0.3,
+        "groundedness": 1.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_1623",
+      "question": "In Hanna and Barbera's TV cartoons base on The Addams Family who was the voice of Gomez?",
+      "ground_truth_answer": "John Astin",
+      "aliases": [
+        "John Astin"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0028.md_c0",
+          "score": 0.7234,
+          "snippet": "# The Addams Family The Addams Family is a group of fictional characters created by American cartoonist Charles Addams. The Addams Family characters h..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0028.md_c29",
+          "score": 0.7165,
+          "snippet": " has no relation to the Paramount movies, being in fact a full-length pilot for a second live-action television version, The New Addams Family, produc..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0028.md_c22",
+          "score": 0.7017,
+          "snippet": "lized the success of the 1991 Addams Family movie. This series returned to the familiar format of the original series, with the Addams Family facing t..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "I do not know",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.7917,
+        "answer_relevance": 0.3,
+        "groundedness": 0.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_2669",
+      "question": "\"What is the more common name of the \"\"simple plurality\"\" system of voting?\"",
+      "ground_truth_answer": "First past the post",
+      "aliases": [
+        "First-past-the-post electoral system",
+        "FPTP",
+        "First-Past-The-Post",
+        "First past the post",
+        "First past the post electoral system",
+        "Multiple member first-past-the-post voting",
+        "First-past-the-post",
+        "First Past The Post",
+        "First-Past-The-Post Voting",
+        "First Past the Post (FPTP)",
+        "First Past the Post electoral system",
+        "First past the post system",
+        "First-Past-The-Post Method",
+        "First Past the Post",
+        "First-past-the-post election system",
+        "First-past-the-post voting",
+        "First pass the post",
+        "Simple-majority"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0029.md_c38",
+          "score": 0.8834,
+          "snippet": "national, and international levels. Campaigning is prohibited. # Plurality voting system A plurality voting system is a voting system in which each vo..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0029.md_c44",
+          "score": 0.8235,
+          "snippet": " prevalent in the United Kingdom and former British colonies, including the United States, Canada and India. In single winner plurality voting, each v..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0029.md_c43",
+          "score": 0.7973,
+          "snippet": "or multiple winners in a particular constituency using bloc voting. Plurality/Majority systems in the broader family of voting systems Most experts gr..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "first-past-the-post",
+        "exact_match": 1.0,
+        "f1_score": 1.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.6667,
+        "answer_relevance": 0.3,
+        "groundedness": 1.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_2926",
+      "question": "What is the name of the large buttock and thigh muscle?",
+      "ground_truth_answer": "Gluteus maximus",
+      "aliases": [
+        "Gluteus maximus muscles",
+        "Glutei maximi",
+        "Gluteus maximus",
+        "Gluteaus maximus",
+        "Glutaeus maximus muscle",
+        "Musculus glutaeus maximus",
+        "Glute",
+        "Glutius maximus",
+        "Gluteus Maximus",
+        "Musculus gluteus maximus",
+        "Glutes",
+        "Glutis maximus",
+        "Gluteus maximus muscle",
+        "Glutæus maximus",
+        "Glutaeus maximus",
+        "Glutæus maximus muscle"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0030.md_c0",
+          "score": 0.7163,
+          "snippet": "# Buttocks The buttocks (singular: buttock) are two rounded portions of the anatomy, located on the posterior of the pelvic region of apes (including ..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0030.md_c1",
+          "score": 0.6981,
+          "snippet": "so used the buttocks as a primary target for corporal punishment, as the buttocks' layer of subcutaneous fat offers protection against injury while st..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0030.md_c2",
+          "score": 0.6825,
+          "snippet": "asses of the gluteal muscles or \"glutes\" (the gluteus maximus muscle and the gluteus medius muscle) superimposed by a layer of fat. The superior aspec..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "I do not know",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.8,
+        "answer_relevance": 0.3,
+        "groundedness": 0.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_812",
+      "question": "Who was the defending champion when Martina Navratilova first won Wimbledon singles?",
+      "ground_truth_answer": "Virginia Wade",
+      "aliases": [
+        "Virginia Wade",
+        "Sarah Virginia Wade"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0005.md_c20",
+          "score": 0.6961,
+          "snippet": " from achieving this feat by his own countryman David Ferrer, who defeated him in the quarterfinal of the Australian Open 2011, with Nadal previously ..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0005.md_c38",
+          "score": 0.6913,
+          "snippet": "Wimbledon to the 1938 U.S. Championships). Women's singles * 6: Maureen Connolly (from the 1952 Wimbledon to the 1953 U.S. Championships). * 6: Margar..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0005.md_c104",
+          "score": 0.6908,
+          "snippet": "s year-end no. 1 for a record six consecutive years from 1993 through 1998. Sampras was known for his natural attacking serve-and-volley game, all-rou..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "I do not know",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.8333,
+        "answer_relevance": 0.3,
+        "groundedness": 1.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_2818",
+      "question": "What type of seaweed grows up to 100 meters in length, and is farmed for its alginates?",
+      "ground_truth_answer": "Kelp",
+      "aliases": [
+        "Laminariales",
+        "Kelp",
+        "Kelps"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0032.md_c19",
+          "score": 0.7106,
+          "snippet": "ps based on pigmentation: brown, red and green. These broad groups are the Phaeophyceae, Rhodophyceae and Chlorophyceae, respectively. Brown seaweeds ..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0032.md_c18",
+          "score": 0.7103,
+          "snippet": "weeds. A wide variety of brown seaweeds of the phylum Phaeophyceae are harvested throughout the world to be converted into the raw material commonly k..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0032.md_c21",
+          "score": 0.71,
+          "snippet": "resulting in different physical properties. For example, some may yield an alginate that gives a strong gel, another a weaker gel; some may readily gi..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "I do not know",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.6275,
+        "answer_relevance": 0.3,
+        "groundedness": 1.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_2728",
+      "question": "What raw material is used for making glass?",
+      "ground_truth_answer": "Sand",
+      "aliases": [
+        "Sandiest",
+        "Coversand",
+        "Desert sand",
+        "Psammophilous",
+        "Psammophile",
+        "Sand",
+        "Floor sugar",
+        "Sand-grain",
+        "Floor-sugar",
+        "Sand grain",
+        "Grains of sand"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0033.md_c88",
+          "score": 0.8017,
+          "snippet": "igated in small-scale laboratory experiments. The raw materials for laboratory-scale glass melts are often different from those used in mass productio..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0033.md_c65",
+          "score": 0.7272,
+          "snippet": " and molded into forms ranging from flat sheets to highly intricate shapes. The finished product is brittle and will fracture, unless laminated or spe..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0033.md_c57",
+          "score": 0.7255,
+          "snippet": " well. # Aluminosilicate glass: silica 57% + alumina 16% + lime 10% + magnesia 7.0% + barium oxide (BaO) 6.0% + boric oxide (B2O3) 4.0%. Extensively u..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "pure chemicals",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.9167,
+        "answer_relevance": 0.3,
+        "groundedness": 1.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_2116",
+      "question": "Throughout the 80s and 90s Phil Collins recorded on which record label?",
+      "ground_truth_answer": "Atlantic",
+      "aliases": [
+        "Sea of Atlas",
+        "The Pond",
+        "Ethiopic Ocean",
+        "Across the pond",
+        "North Atlantic",
+        "The Atlantic Ocean",
+        "North Atlantic ocean",
+        "Northern Atlantic",
+        "Altantic Ocean",
+        "Atlantis Thalassa",
+        "Atlantic basic",
+        "The pond",
+        "Atlantic basin",
+        "Atlantic",
+        "Atlantic Oceans",
+        "Occidental Ocean",
+        "Ethiopian Ocean",
+        "North Atlantic fisheries",
+        "Atlantic Basic",
+        "North-East Atlantic",
+        "Atlantic Basin",
+        "Atlantic ocean",
+        "Atlantic (ocean)",
+        "Antlantic Ocean",
+        "South Atlantic Ocean",
+        "Oceanvs Occidentalis",
+        "Atlantic Ocean",
+        "Central Atlantic",
+        "South Atlantic",
+        "East Atlantic",
+        "North Atlantic Ocean",
+        "Altantic ocean",
+        "Atlantic coast"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0017.md_c244",
+          "score": 0.5759,
+          "snippet": "the 1980s. Pop-punk tends to use power-pop melodies and chord changes with speedy punk tempos and loud guitars. Punk music provided the inspiration fo..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0017.md_c234",
+          "score": 0.5611,
+          "snippet": "f the first to employ traditional corporate promotion and marketing mechanisms such as an MTV video, in store displays and the use of radio \"consultan..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0017.md_c151",
+          "score": 0.553,
+          "snippet": "endrix and the Who, whose single \"I Can See for Miles\" delved into psychedelic territory. Key recordings included Jefferson Airplane's Surrealistic Pi..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "I do not know",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.5556,
+        "answer_relevance": 0.3,
+        "groundedness": 0.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_510",
+      "question": "What was President Gerald Ford's middle name?",
+      "ground_truth_answer": "Rudolph",
+      "aliases": [
+        "Rudolph (disambiguation)",
+        "Rudolph",
+        "Rudolf",
+        "Rodolph",
+        "Rodolphe"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0035.md_c0",
+          "score": 0.7694,
+          "snippet": "# Gerald Ford Gerald Rudolph Ford Jr. (born Leslie Lynch King Jr.; July 14, 1913 – December 26, 2006) was an American politician who served as the 38t..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0035.md_c36",
+          "score": 0.6995,
+          "snippet": "rted in a 1974 profile of Betty Ford, \"Jerry was running for Congress and wasn't sure how voters might feel about his marrying a divorced ex-dancer.\" ..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0035.md_c5",
+          "score": 0.6956,
+          "snippet": "e in the Republican Party. After experiencing health problems, he died in his home on December 26, 2006. Ford lived longer than any other U.S. preside..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "Rudolph",
+        "exact_match": 1.0,
+        "f1_score": 1.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.6667,
+        "answer_relevance": 0.5,
+        "groundedness": 1.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "qz_647",
+      "question": "In which arcade game, would you find ghosts called Inky, Pinky, Blinky and Clyde?",
+      "ground_truth_answer": "Pac-Man",
+      "aliases": [
+        "Pakman",
+        "Pac-man",
+        "Pac-mn",
+        "Pacman",
+        "Blinky, Pinky, Inky, Clyde",
+        "Pac-Man (card game)",
+        "Puck-Man",
+        "Pac Man Magnetic Maze",
+        "Google Pac-Man",
+        "パックマン",
+        "Puc-Man",
+        "Clyde (monster)",
+        "Pac dots",
+        "PACMAN",
+        "Pac-Man (film)",
+        "Aosuke",
+        "PUCK-MAN",
+        "CDMan",
+        "Pakkuman",
+        "MacMan Kid",
+        "Inky (ghost)",
+        "Pac-man (board game)",
+        "Google Pacman",
+        "Pac man",
+        "Blinky (ghost)",
+        "PuckMan",
+        "Pac-man ghosts",
+        "Paku paku",
+        "Split-Screen Level",
+        "Clyde (ghost)",
+        "PAC-MAN",
+        "Puck Man",
+        "Pac-Man",
+        "PacMan",
+        "Blinky (monster)",
+        "PUCKMAN",
+        "Pac Man",
+        "Pinky (ghost)",
+        "Guzuta",
+        "Puck-man",
+        "Akabei",
+        "PUCK MAN",
+        "Pac-Man (board game)"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0036.md_c48",
+          "score": 0.7505,
+          "snippet": " of the same franchise. This list only includes franchises that have sold at least 5,000 hardware units or grossed at least $10 million revenues. # Gh..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0036.md_c57",
+          "score": 0.714,
+          "snippet": "ria. Inky Inky is a baby blue ghost who, in the original arcade game, has a fickle mood. He can be unpredictable. Sometimes he chases Pac-Man aggressi..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0036.md_c60",
+          "score": 0.6906,
+          "snippet": "nd Blinky's roles are reversed. Other Ghosts With the release of further Pac-Man games, more ghosts have been added. * Kinky - a yellow Ghost that onl..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "Pac-Man",
+        "exact_match": 1.0,
+        "f1_score": 1.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.6667,
+        "answer_relevance": 0.5,
+        "groundedness": 1.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "qz_1384",
+      "question": "The Canary Islands are named after what animal?",
+      "ground_truth_answer": "Dog",
+      "aliases": [
+        "Domestic dogs",
+        "Female dogs",
+        "Canis familiaris",
+        "Canis Familaris",
+        "Canis familiaris domesticus",
+        "Dogs (Animals)",
+        "🐕",
+        "She dog",
+        "She-dog",
+        "Dogs",
+        "Doggy",
+        "Canis familiarus domesticus",
+        "Domestic dog",
+        "Dogs as pets",
+        "Dog (pet)",
+        "Dog (Domestic)",
+        "Pet dog",
+        "She dogs",
+        "Canis lupus familiaris",
+        "Canine lupus",
+        "Dog hood",
+        "Shedog",
+        "🐶",
+        "The domestic dog clade",
+        "A dog",
+        "Canis domesticus",
+        "Dogs as our pets",
+        "Canis Canis",
+        "Domestic Dog",
+        "Canis Lupus Familiaris",
+        "Doggie",
+        "Dog",
+        "C.l. familiaris",
+        "Doggies",
+        "A man's best friend",
+        "Doghood",
+        "Shedogs",
+        "Bitch (female dog)",
+        "She-dogs",
+        "Dogness",
+        "Bitch (dog)",
+        "Female dog",
+        "C. l. familiaris",
+        "Shelter dog"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0037.md_c10",
+          "score": 0.8129,
+          "snippet": "h dogs. The connection to dogs is retained in their depiction on the islands' coat-of-arms (shown above). What is certain is that the name of the isla..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0037.md_c81",
+          "score": 0.7925,
+          "snippet": "illa - Tenerife Wildlife The official symbols from nature associated with Canary Islands are the bird Serinus canaria (canary) and the Phoenix canarie..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0037.md_c7",
+          "score": 0.784,
+          "snippet": "likely derived from the Latin name Canariae Insulae, meaning \"Islands of the Dogs\", a name applied originally only to Gran Canaria. According to the h..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "dogs",
+        "exact_match": 1.0,
+        "f1_score": 1.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.9167,
+        "answer_relevance": 0.3,
+        "groundedness": 1.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_1007",
+      "question": "Who was born first, Kiefer Sutherland or Christian Slater?",
+      "ground_truth_answer": "Kiefer Sutherland",
+      "aliases": [
+        "Kiefer sutherlund",
+        "Keefer Sutherland",
+        "Promised Land (1987)",
+        "Keifer Sutherland",
+        "Kiefer William Frederick Dempsey George Rufus Sutherland",
+        "Kiefer Sutherland",
+        "Keifer Southerland",
+        "Kiefer William Fredrick Dempsey George Rufus Sutherland",
+        "Kiefer Sutherland characters"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0038.md_c0",
+          "score": 0.6672,
+          "snippet": "# Kiefer Sutherland Kiefer Sutherland (born Kiefer William Frederick Dempsey George Rufus Sutherland; 21 December 1966) is a British-born Canadian act..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0038.md_c48",
+          "score": 0.6105,
+          "snippet": "-starred in the 2014 television series, Mind Games, which was cancelled after only five episodes were aired, and was part of the ensemble in Lars von ..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0038.md_c33",
+          "score": 0.5945,
+          "snippet": "el Wayne Carr, allegedly took US$869,000 from Sutherland, ostensibly on the account of steers to be purchased. Prosecutors alleged that Carr never pur..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "Kiefer Sutherland",
+        "exact_match": 1.0,
+        "f1_score": 1.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.5185,
+        "answer_relevance": 0.83,
+        "groundedness": 1.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_2914",
+      "question": "How many chambers has the heart?",
+      "ground_truth_answer": "Four",
+      "aliases": [
+        "Four",
+        "four",
+        "4"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0039.md_c0",
+          "score": 0.7425,
+          "snippet": "# Heart The heart is a muscular organ in humans and other animals, which pumps blood through the blood vessels of the circulatory system. Blood provid..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0039.md_c18",
+          "score": 0.7247,
+          "snippet": "re of the blood flowing back from the aorta. Right heart The right heart consists of two chambers, the right atrium and the right ventricle, separated..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0039.md_c1",
+          "score": 0.7244,
+          "snippet": "ht ventricles. Commonly the right atrium and ventricle are referred together as the right heart and their left counterparts as the left heart. Fish in..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "four",
+        "exact_match": 1.0,
+        "f1_score": 1.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.3333,
+        "answer_relevance": 0.5,
+        "groundedness": 1.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_678",
+      "question": "Who had a 70s No 1 hit with Let's Do It Again?",
+      "ground_truth_answer": "The Staple Singers",
+      "aliases": [
+        "The Staple Singers",
+        "Staple Singers",
+        "The Staples Singers",
+        "Staples Singers",
+        "Cleotha Staples"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0040.md_c0",
+          "score": 0.7619,
+          "snippet": "# Let's Do It Again (song) \"Let's Do It Again\" was a hit song for The Staple Singers. Written by Curtis Mayfield, it was part of the soundtrack for th..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0046.md_c34",
+          "score": 0.6148,
+          "snippet": " and Hendrix often clashed over tardiness, wardrobe, and Hendrix's stage antics, and in late July, Richard's brother Robert fired him. He then briefly..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0017.md_c194",
+          "score": 0.6127,
+          "snippet": " 1970s rock.J. Dougan, \"Punk Music\", in Bogdanov et.al., 2002, pp. 1335–6. They created fast, hard-edged music, typically with short songs, stripped-d..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "The Staple Singers",
+        "exact_match": 1.0,
+        "f1_score": 1.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.5556,
+        "answer_relevance": 0.5,
+        "groundedness": 1.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "qz_1603",
+      "question": "Which film features the characters Sally Albright and Harry Burns?",
+      "ground_truth_answer": "When Harry Met Sally",
+      "aliases": [
+        "When Harry Met Sally…",
+        "I'll have what she's having",
+        "When Harry Met Sally",
+        "Sally Albright",
+        "When Harry Met Sally...",
+        "When harry met sally",
+        "When Harry Met Sally ...",
+        "I’ll have what she’s having"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0041.md_c19",
+          "score": 0.6699,
+          "snippet": "id, \"I'm a little more optimistic than Harry. But I think it is difficult. Men basically act like stray dogs in front of a supermarket. I do have plat..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0041.md_c11",
+          "score": 0.6213,
+          "snippet": "ths later. Cast * Billy Crystal as Harry Burns * Meg Ryan as Sally Albright * Carrie Fisher as Marie Fisher * Bruno Kirby as Jess Fisher * Steven Ford..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0041.md_c0",
+          "score": 0.5965,
+          "snippet": "# When Harry Met Sally... When Harry Met Sally… is a 1989 American romantic comedy film written by Nora Ephron and directed by Rob Reiner. It stars Bi..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "When Harry Met Sally...",
+        "exact_match": 1.0,
+        "f1_score": 1.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.8,
+        "answer_relevance": 0.53,
+        "groundedness": 1.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_2295",
+      "question": "In which city was John Lennon murdered?",
+      "ground_truth_answer": "New York",
+      "aliases": [
+        "New Yourk State",
+        "State of N.Y.",
+        "US-NY",
+        "N Y",
+        "The state of NY",
+        "NewYork",
+        "NYS",
+        "Neo York",
+        "NY state",
+        "Nova York",
+        "State of new york",
+        "Ny",
+        "New york",
+        "Nueva York (estado)",
+        "N Y state",
+        "New York (state)",
+        "U.S. state of New York",
+        "New York state",
+        "New York, U.S.",
+        "State New York",
+        "Nýja-Jórvík",
+        "Newyork",
+        "NEW YORK",
+        "State of N. Y.",
+        "N. Y. state",
+        "NY",
+        "The state of N.Y.",
+        "NY (state)",
+        "New York's",
+        "N.Y. (U.S. state)",
+        "State of new yourk",
+        "New York State",
+        "New York (U.S. state)",
+        "New york state",
+        "New Yrok",
+        "11th State",
+        "New York (USA State)",
+        "State of N Y",
+        "New-York",
+        "The State of New York",
+        "State of New York",
+        "US state of New York",
+        "N Y (U.S. state)",
+        "N.Y. state",
+        "N.Y.",
+        "The state of N. Y.",
+        "N. Y. (state)",
+        "The state of N Y",
+        "New York, US",
+        "N.Y. (state)",
+        "Nyja-Jorvik",
+        "Religion in New York",
+        "New Yourk",
+        "N. Y.",
+        "New York State's",
+        "Estado Nueva York",
+        "New York (USA state)",
+        "New york population",
+        "New York, U.S.A",
+        "New York",
+        "NY (U.S. state)",
+        "Estado de Nueva York",
+        "N. Y. (U.S. state)",
+        "Eleventh State",
+        "N Y (state)",
+        "State of NY",
+        "New York (State)",
+        "New York (U.S. state"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0042.md_c2",
+          "score": 0.702,
+          "snippet": "Double Fantasy. He was murdered three weeks after its release. Lennon revealed a rebellious nature and acerbic wit in his music, writing, drawings, on..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0042.md_c60",
+          "score": 0.6727,
+          "snippet": " arrival at 11:00p.m. (EST). Earlier that evening, Lennon had autographed a copy of Double Fantasy for Chapman. Ono issued a statement the next day, s..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0042.md_c45",
+          "score": 0.6413,
+          "snippet": "eld in the New York home of activist Jerry Rubin after McGovern lost to Nixon. Embroiled in a continuing legal battle with the immigration authorities..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "I do not know",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.8571,
+        "answer_relevance": 0.3,
+        "groundedness": 0.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_2833",
+      "question": "What is the most abundant substance in the plant kingdom, which no mammal produces the enzyme to digest?",
+      "ground_truth_answer": "Cellulose",
+      "aliases": [
+        "E460",
+        "Rosette terminal complex",
+        "Cellulosic",
+        "Cellulolysis",
+        "Cellulose ester",
+        "Cellulolytic",
+        "Cellulose",
+        "Cellulolysys",
+        "Tunicin",
+        "Tunicine"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0043.md_c75",
+          "score": 0.6867,
+          "snippet": "y and plants. Carnivorous mammals have a simple digestive tract because the proteins, lipids and minerals found in meat require little in the way of s..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0043.md_c123",
+          "score": 0.6563,
+          "snippet": "en internal and external digestion. External digestion developed earlier in evolutionary history, and most fungi still rely on it. In this process, en..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0043.md_c167",
+          "score": 0.6525,
+          "snippet": " RNA are broken down into mononucleotides by the nucleases deoxyribonuclease and ribonuclease (DNase and RNase) from the pancreas. Non-destructive dig..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "I do not know",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.5833,
+        "answer_relevance": 0.3,
+        "groundedness": 0.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "qz_1858",
+      "question": "The Kray twins were convicted of the murder of George Cornell in the East End of London in 1966. What was the name of the pub in which he was shot?",
+      "ground_truth_answer": "The Blind Beggar",
+      "aliases": [
+        "The Blind Beggar",
+        "Blind Beggar"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0044.md_c0",
+          "score": 0.774,
+          "snippet": "# Kray twins Twin brothers Ronald \"Ronnie\" Kray (24 October 1933 - 17 March 1995) and Reginald \"Reggie\" Kray (24 October 1933 - 1 October 2000) were E..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0044.md_c52",
+          "score": 0.6996,
+          "snippet": "e was shot and killed by Ronnie Kray at the Blind Beggar public house in Whitechapel, east London. Kray was sentenced to life imprisonment for the mur..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0044.md_c56",
+          "score": 0.674,
+          "snippet": " London. Old Bailey trial On 4 March 1969 Ronnie Kray was unanimously found guilty by a jury at The Old Bailey of the murder of George Cornell. His br..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "Blind Beggar",
+        "exact_match": 1.0,
+        "f1_score": 1.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.9365,
+        "answer_relevance": 0.33,
+        "groundedness": 1.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_1340",
+      "question": "In which country was the first permanent bungee jumping site situated?",
+      "ground_truth_answer": "New Zealand",
+      "aliases": [
+        "N Z",
+        "Nouvelle-Zelande",
+        "Kiwiland",
+        "New Zealand's",
+        "New Zealand.",
+        "Nz",
+        "New Zealand,",
+        "NEW Z",
+        "N Zealand",
+        "NEW ZEALAND",
+        "New Zealend",
+        "Administrative divisions of new zealand",
+        "New Zaeland",
+        "N z",
+        "Kiwistan",
+        "Enzed",
+        "NewZealand",
+        "NZ",
+        "Name of New Zealand",
+        "Staten Landt",
+        "New+Zealand",
+        "NZL",
+        "Nu Tirani",
+        "Neo Zealand",
+        "ISO 3166-1:NZ",
+        "New Zealnd",
+        "AoTeAroa",
+        "Sheepland",
+        "Aotearoa / New Zealand",
+        "Subdivisions of New Zealand",
+        "Its got that new zeal",
+        "New Zealand",
+        "Newzealand",
+        "New Zeland",
+        "New-Zealand",
+        "New Zeeland",
+        "Administrative divisions of New Zealand",
+        "New Zealnad",
+        "Staten Land",
+        "N.Z.",
+        "Staaten land",
+        "New.Zealand",
+        "Mew Zealand",
+        "Maoriland",
+        "N. Zealand",
+        "Etymology of New Zealand",
+        "New Xealand",
+        "Māoria",
+        "New zelanad",
+        "Niu Tireni",
+        "New zealand",
+        "New zeland",
+        "Nova Zeelandia",
+        "New zeeland"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0045.md_c1",
+          "score": 0.7766,
+          "snippet": "er, that has the ability to hover above the ground. The thrill comes from the free-falling and the rebound. When the person jumps, the cord stretches ..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0045.md_c15",
+          "score": 0.7438,
+          "snippet": "gee jump currently in operation is just 13m smaller, at 220 m. This jump, made without guide ropes, is from the top of the Verzasca Dam near Locarno, ..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0045.md_c2",
+          "score": 0.7259,
+          "snippet": "ers of the Oxford University Dangerous Sports Club. The jumpers were arrested shortly after, but continued with jumps in the US from the Golden Gate B..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "I do not know",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.7273,
+        "answer_relevance": 0.3,
+        "groundedness": 0.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_653",
+      "question": "How old was Jimi Hendrix when he died?",
+      "ground_truth_answer": "27",
+      "aliases": [
+        "27",
+        "twenty-seven"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0046.md_c109",
+          "score": 0.772,
+          "snippet": "and refrained from the histrionics that people had come to expect from him. He died less than 48 hours later. Drugs and alcohol In July 1962, after He..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0046.md_c120",
+          "score": 0.7456,
+          "snippet": "ep. She awoke around 11 a.m., and found Hendrix breathing, but unconscious and unresponsive. She called for an ambulance at 11:18 a.m.; they arrived o..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0046.md_c3",
+          "score": 0.7187,
+          "snippet": "e in the US after his performance at the Monterey Pop Festival in 1967, and in 1968 his third and final studio album, Electric Ladyland, reached numbe..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "27",
+        "exact_match": 1.0,
+        "f1_score": 1.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.6667,
+        "answer_relevance": 0.5,
+        "groundedness": 0.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_515",
+      "question": "Art Garfunkel trained for which profession although he didn't qualify?",
+      "ground_truth_answer": "Architect",
+      "aliases": [
+        "Master Builder (occupation)",
+        "Master builder (occupation)",
+        "Registered Architect",
+        "Architects",
+        "Architecht",
+        "Architect",
+        "HOK Canada, Inc.",
+        "Stanford Downey Architects Inc.",
+        "Graziani + Corazza",
+        "Architechts",
+        "Clifford & Lawrie"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0047.md_c0",
+          "score": 0.6485,
+          "snippet": "# Art Garfunkel Arthur Ira \"Art\" Garfunkel (born November 5, 1941) is an American singer, poet and actor. He partnered in his earlier years with Paul ..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0047.md_c7",
+          "score": 0.6012,
+          "snippet": " because he liked to track, or \"graph\" hits, on the pop charts. He also released some singles as a solo artist under the name Artie Garr, a shortened ..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0047.md_c17",
+          "score": 0.5951,
+          "snippet": "le. 1970–1975: Hiatus and first album During a three-year hiatus after Simon & Garfunkel's break-up, Garfunkel starred in two Mike Nichols films, Catc..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "I do not know",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.4667,
+        "answer_relevance": 0.3,
+        "groundedness": 1.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_1754",
+      "question": "On the Internet what is Spam?",
+      "ground_truth_answer": "Junk mail",
+      "aliases": [
+        "Junk mail (disambiguation)",
+        "Junkmail",
+        "Junkmailing",
+        "Junk mail",
+        "Junk Mail"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0048.md_c0",
+          "score": 0.794,
+          "snippet": "# Spamming Electronic spamming is the use of electronic messaging systems to send an unsolicited message (spam), especially advertising, as well as se..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0048.md_c89",
+          "score": 0.76,
+          "snippet": "asons why people click on most spams."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0048.md_c28",
+          "score": 0.7342,
+          "snippet": "vernment, and nonprofit websites worldwide. Fake accounts and comments planted by computers programmed to issue social spam can infiltrate these websi..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "an unsolicited message",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.5556,
+        "answer_relevance": 0.3,
+        "groundedness": 1.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_2265",
+      "question": "Who did Dr. Crippen murder?",
+      "ground_truth_answer": "His wife",
+      "aliases": [
+        "His wife"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0049.md_c0",
+          "score": 0.7827,
+          "snippet": "# Hawley Harvey Crippen Hawley Harvey Crippen (September 11, 1862 – November 23, 1910), usually known as Dr. Crippen, was an American homeopath, ear a..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0049.md_c19",
+          "score": 0.7537,
+          "snippet": "nted over it. Some of his relatives in Michigan have begun lobbying for his remains to be repatriated to the United States. Possible motives for the m..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0049.md_c20",
+          "score": 0.7138,
+          "snippet": "s to be propounded. In 1981, newspapers reported that Sir Hugh Rhys Rankin claimed to have met Ethel Le Neve in 1930 in Australia and that on that occ..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "Cora Henrietta Crippen",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.5333,
+        "answer_relevance": 0.3,
+        "groundedness": 1.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    {
+      "question_id": "tc_847",
+      "question": "What was the Paramount Film Company originally called?",
+      "ground_truth_answer": "Famous Players Film Company",
+      "aliases": [
+        "Raleigh Studios",
+        "Famous Players Film Company",
+        "The Famous Players",
+        "Celebrated Players Film Corporation"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0050.md_c0",
+          "score": 0.7407,
+          "snippet": "# Paramount Pictures Paramount Pictures Corporation (commonly known as Paramount Studios or simply Paramount, and formerly known as Famous Players-Las..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0050.md_c32",
+          "score": 0.6988,
+          "snippet": " service which operated with a coin inserted into a box. The service began operating in Palm Springs, California on November 27, 1953, but due to pres..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0050.md_c52",
+          "score": 0.6773,
+          "snippet": "cessful of these films, Titanic, a joint production with 20th Century Fox, became the highest grossing film up to that time, grossing over $1.8 billio..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "Famous Players-Lasky Corporation",
+        "exact_match": 0.0,
+        "f1_score": 0.6667
+      },
+      "rag_triad": {
+        "context_relevance": 0.8333,
+        "answer_relevance": 0.3,
+        "groundedness": 1.0
+      },
+      "no_rag": {
+        "predicted_answer": "[Lỗi gọi LLM API (403)]",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      }
+    }
+  ],
+  "rag_triad_metrics": {
+    "context_relevance": 74.15,
+    "answer_relevance": 38.38,
+    "groundedness": 64.0
+  }
+}

@@ -1,0 +1,533 @@
+{
+  "timestamp": "2026-11-11 23:32:43",
+  "configuration": {
+    "num_samples_evaluated": 10,
+    "top_k": 3,
+    "embedding_model": "BAAI/bge-small-en-v1.5",
+    "llm_model": "gemini-3.8-flash",
+    "llm_base_url": "https://aiplatform.googleapis.com/v1/projects/my-first-rag-514304/locations/global/publishers/google/models",
+    "chunk_size": 500,
+    "chunk_overlap": 50
+  },
+  "retrieval_metrics": {
+    "hit_rate": 50.0,
+    "mrr": 0.5,
+    "recall": 23.33
+  },
+  "generation_metrics": {
+    "simple_rag": {
+      "exact_match": 40.0,
+      "f1_score": 43.33
+    }
+  },
+  "detailed_results": [
+    {
+      "question_id": "tc_905",
+      "question": "Who first hosted Family Feud?",
+      "ground_truth_answer": "Richard Dawson",
+      "aliases": [
+        "Dick Dawson",
+        "Richard Dawson",
+        "Dickie Dawson",
+        "Colin Lionel Emm",
+        "Colin Emm"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0001.md_c0",
+          "score": 0.7934,
+          "snippet": "# Family Feud Family Feud is an American television game show created by Mark Goodson where two families compete to name the most popular responses to..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0001.md_c42",
+          "score": 0.7351,
+          "snippet": "tellite channel Challenge. Reception Family Feud won the Daytime Emmy Award for Outstanding Game/Audience Participation Show in 1977, and the show has..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0001.md_c24",
+          "score": 0.7261,
+          "snippet": "until the end of the 1993–94 season. Dawson returned to the show at the request of Mark Goodson Productions for the 1994–95 season. When Feud returned..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "I do not know",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.55,
+        "answer_relevance": 0.0,
+        "groundedness": 1.0
+      }
+    },
+    {
+      "question_id": "tc_280",
+      "question": "Who directed the classic 30s western Stagecoach?",
+      "ground_truth_answer": "John Ford",
+      "aliases": [
+        "John Ford (1895-1973)",
+        "Sean O'Feeney",
+        "John Ford (film director)",
+        "Ford, John (1895-1973)",
+        "Argosy Pictures",
+        "John Ford statue",
+        "John Martin O'Feeney",
+        "John Ford (director)",
+        "Cavalry trilogy",
+        "John O'Feeney",
+        "Sean Aloysius O'Feeney",
+        "Ford, John",
+        "John Ford"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0002.md_c0",
+          "score": 0.7573,
+          "snippet": "# Stagecoach (1939 film) Stagecoach is a 1939 American Western film directed by John Ford, starring Claire Trevor and John Wayne in his breakthrough r..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0002.md_c25",
+          "score": 0.6967,
+          "snippet": "s from Kayenta. Reception Stagecoach has been lauded as one of the most influential films ever made. Orson Welles argued that it was a perfect textboo..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0002.md_c27",
+          "score": 0.6776,
+          "snippet": "in ten \"classic\" American film genres—after polling over 1,500 people from the creative community. Stagecoach was acknowledged as the ninth best film ..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "John Ford",
+        "exact_match": 1.0,
+        "f1_score": 1.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.45,
+        "answer_relevance": 1.0,
+        "groundedness": 1.0
+      }
+    },
+    {
+      "question_id": "tc_2202",
+      "question": "What are the international registration letters of a vehicle from Iceland?",
+      "ground_truth_answer": "IS",
+      "aliases": [
+        "I S",
+        "I.s.",
+        "IS",
+        "I.S.",
+        "Is.",
+        "IS (disambiguation)",
+        "Is"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0003.md_c168",
+          "score": 0.8178,
+          "snippet": "icle registration plates in Iceland are issued by the Icelandic Transport Authority and are made in the state penitentiary. The plates are made of alu..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0003.md_c172",
+          "score": 0.7671,
+          "snippet": "sued between 1989 and 2004 are required to get a national identifier sticker so they look like the new plates, although this law is not widely enforce..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0003.md_c167",
+          "score": 0.7457,
+          "snippet": "ehicles from one member state do not need to display the oval while within another state, provided the number plate is in the common EU standard forma..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "I do not know",
+        "exact_match": 0.0,
+        "f1_score": 0.3333
+      },
+      "rag_triad": {
+        "context_relevance": 0.2,
+        "answer_relevance": 0.0,
+        "groundedness": 1.0
+      }
+    },
+    {
+      "question_id": "tc_1943",
+      "question": "In which North African country was Mohammed Al-Fayed, owner of Harrods department store in London, born?",
+      "ground_truth_answer": "Egypt",
+      "aliases": [
+        "EGY",
+        "Arab Republic of Egypt",
+        "A .R . EGYPT",
+        "The Arab Republic of Egypt",
+        "Eygpt",
+        "Etymology of Egypt",
+        "مصر",
+        "Kemmet",
+        "Gift of the Nile",
+        "Arab Republic Of Egypt",
+        "Names of Egypt",
+        "Miṣr",
+        "A .R . Egypt",
+        "Eytp",
+        "National identity of Egyptians",
+        "Jumhuriyat Misr al'Arabiyah",
+        "Eypt",
+        "Egyptian Republic",
+        "Ejipt",
+        "Name of Egypt",
+        "Egipto",
+        "Kimet",
+        "جمهوريّة مصرالعربيّة",
+        "Egypte",
+        "Egypt (name)",
+        "Egypt",
+        "جمهورية مصرالعربية",
+        "A.R. Egypt",
+        "Republic of Eygpt",
+        "Égypte",
+        "Second Egyptian Republic",
+        "Egipt",
+        "ISO 3166-1:EG",
+        "Egypt info"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0004.md_c70",
+          "score": 0.6738,
+          "snippet": "t department store the KaDeWe in Berlin has a retail space of 650000 sqft. Criticism Harrods and Mohamed Al-Fayed were criticised for selling real ani..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0004.md_c7",
+          "score": 0.6517,
+          "snippet": "a group that included the famous London store Harrods, from Roland 'Tiny' Rowland, the head of Lonrho. In 1985, he and his brothers bought the remaini..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0004.md_c40",
+          "score": 0.6488,
+          "snippet": " an upmarket department store located on Brompton Road in Knightsbridge, in the Royal Borough of Kensington and Chelsea, London. The Harrods brand als..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "I do not know",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.05,
+        "answer_relevance": 0.0,
+        "groundedness": 1.0
+      }
+    },
+    {
+      "question_id": "tc_1704",
+      "question": "Which grand slam did Pete Sampras not win in the 20th century?",
+      "ground_truth_answer": "French",
+      "aliases": [
+        "Français",
+        "Francaise",
+        "The French",
+        "Frenchness",
+        "French",
+        "Francais",
+        "French (disambiguation)",
+        "Frrench"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0005.md_c116",
+          "score": 0.7681,
+          "snippet": "n the Davis Cup in 1995. Notable Sampras-Agassi matches of 1995 included the finals of the Australian Open, the Newsweek Champions Cup, the Lipton Int..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0005.md_c68",
+          "score": 0.7648,
+          "snippet": "pras Petros \"Pete\" Sampras () (born August 12, 1971) is a retired American tennis player and former world No. 1 regarded as one of the greatest player..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0005.md_c84",
+          "score": 0.7463,
+          "snippet": "n title. He finished the year as the clear no. 1 and set a new ATP Tour record that year by becoming the first player to serve more than 1,000 aces in..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "I do not know",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.35,
+        "answer_relevance": 0.1,
+        "groundedness": 1.0
+      }
+    },
+    {
+      "question_id": "tc_1069",
+      "question": "In which American state is the Isabella Stewart Gardner Museum?",
+      "ground_truth_answer": "Massachusetts",
+      "aliases": [
+        "Masachusetts",
+        "Masshole Commonwealth",
+        "Massachusetts (state)",
+        "Massachusetts culture",
+        "Massachusetts, United States",
+        "Masachussetts",
+        "Commonwealth of Masachusetts",
+        "The Bay State",
+        "Commonwealth of Masachussets",
+        "Culture of Massachusetts",
+        "Commonwealth of Massachusetts",
+        "MA (state)",
+        "Massechusetts",
+        "Commonwealth of Masachusets",
+        "Commonwealth of Massachussets",
+        "Religion in Massachusetts",
+        "Masschusetts",
+        "Masachussets",
+        "Commonwealth of Massachussetts",
+        "Massachusetts",
+        "Transport in Massachusetts",
+        "Massachusite",
+        "Economy of Massachusetts",
+        "6th State",
+        "Massitchusits",
+        "Massachsuetts",
+        "Commonwealth of Masachussetts",
+        "The Commonwealth of Massachusetts",
+        "Massachussets",
+        "Massachus",
+        "Massechussets",
+        "Transportation in Massachusetts",
+        "Massachusets",
+        "Masachusets",
+        "Mass.",
+        "Massachusetts state",
+        "Sixth State",
+        "Massachusites",
+        "Massacheusetts",
+        "Most Serene Commonwealth of Massachusetts",
+        "US-MA",
+        "Commonwealth of Massachusets",
+        "Massachussetts",
+        "Massachusetts (U.S. state)",
+        "Taxachusetts",
+        "State of Massachusetts",
+        "Massachusettes",
+        "Massachusettsan",
+        "Education in Massachusetts"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0006.md_c0",
+          "score": 0.7712,
+          "snippet": "# Isabella Stewart Gardner Museum The Isabella Stewart Gardner Museum (ISGM) or Fenway Court, as the museum was known during Isabella Stewart Gardner'..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0006.md_c2",
+          "score": 0.6954,
+          "snippet": "ard displays. In accordance with the will of Isabella Stewart Gardner, admittance is discounted to those wearing Boston Red Sox memorabilia, and is fr..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0006.md_c11",
+          "score": 0.6871,
+          "snippet": "Built to evoke a 15th-century Venetian palace, the museum itself provides an atmospheric setting for Isabella Stewart Gardner's inventive creation. Ga..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "Massachusetts",
+        "exact_match": 1.0,
+        "f1_score": 1.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.67,
+        "answer_relevance": 1.0,
+        "groundedness": 1.0
+      }
+    },
+    {
+      "question_id": "tc_866",
+      "question": "Who was the first person after Scott to reach the South Pole overland?",
+      "ground_truth_answer": "Edmond Hillary",
+      "aliases": [
+        "Sir Edmund Hillary",
+        "Edmund Hilary",
+        "Sir Ed",
+        "Sir Edmund Hilary",
+        "Sir Edmund Percival Hillary",
+        "Edmond Hillary",
+        "Ed Hillary",
+        "Edmond hillary",
+        "Sir Edmund",
+        "Edmund Percival Hillary",
+        "Edmund Hillary"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0007.md_c13",
+          "score": 0.8116,
+          "snippet": "unaware of Amundsen's secretive expedition. Scott and four other men reached the South Pole on January 17, 1912, thirty-four days after Amundsen. On t..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0007.md_c11",
+          "score": 0.7961,
+          "snippet": "o the South Pole was made by British explorer Robert Falcon Scott on the Discovery Expedition of 1901–04. Scott, accompanied by Ernest Shackleton and ..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0007.md_c12",
+          "score": 0.7763,
+          "snippet": "ached 88°23' S – 112 statute miles from the Pole – before being forced to turn back. The first men to reach the Geographic South Pole were the Norwegi..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "I do not know",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.15,
+        "answer_relevance": 0.0,
+        "groundedness": 1.0
+      }
+    },
+    {
+      "question_id": "qz_1516",
+      "question": "Who bought Chelsea football club for £1 in 1982?",
+      "ground_truth_answer": "Ken Bates",
+      "aliases": [
+        "Ken Bates",
+        "Kenneth Bates"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0008.md_c10",
+          "score": 0.7864,
+          "snippet": "the support, which was to plague the club throughout the decade. In 1982, Chelsea were, at the nadir of their fortunes, acquired by Ken Bates for the ..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0008.md_c55",
+          "score": 0.7753,
+          "snippet": "and the only club to hold the Champions League and the Europa League at the same time. Ownership and finances Chelsea Football Club were founded by Gu..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0008.md_c72",
+          "score": 0.7126,
+          "snippet": "1931) is a British businessman, football executive and hotelier. He was involved in forming the Premier League, the development of Wembley Stadium and..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "Ken Bates",
+        "exact_match": 1.0,
+        "f1_score": 1.0
+      },
+      "rag_triad": {
+        "context_relevance": 1.0,
+        "answer_relevance": 1.0,
+        "groundedness": 1.0
+      }
+    },
+    {
+      "question_id": "tc_719",
+      "question": "River Phoenix died during the making of which movie?",
+      "ground_truth_answer": "Dark Blood",
+      "aliases": [
+        "Dark Blood (film)",
+        "Dark Blood"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0009.md_c49",
+          "score": 0.7416,
+          "snippet": "ling well, and thought he was overdosing. Forrest said that Phoenix rallied and re-entered the crowd, but moments later someone frantically called out..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0009.md_c20",
+          "score": 0.6968,
+          "snippet": "s role in Running on Empty. Phoenix jumped to his feet during the ceremony when Kevin Kline beat him for the Oscar. \"I had to stop River from running ..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0009.md_c54",
+          "score": 0.6935,
+          "snippet": "aprio in the lead. *He had expressed interest in playing the 19th-century poet Arthur Rimbaud in Total Eclipse (1995) by Polish director Agnieszka Hol..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "I do not know",
+        "exact_match": 0.0,
+        "f1_score": 0.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.15,
+        "answer_relevance": 0.0,
+        "groundedness": 1.0
+      }
+    },
+    {
+      "question_id": "qz_196",
+      "question": "How many pieces are there in a standard set of dominoes?",
+      "ground_truth_answer": "28",
+      "aliases": [
+        "28",
+        "twenty-eight"
+      ],
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc0010.md_c17",
+          "score": 0.8114,
+          "snippet": "longs both to the 6 suit and the suit of doubles. The most common domino sets commercially available are Double Six (with 28 tiles) and Double Nine (w..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc0010.md_c0",
+          "score": 0.7885,
+          "snippet": "# Dominoes Dominoes (or dominos) is a game played with rectangular \"domino\" tiles. The domino gaming pieces make up a domino set, sometimes called a d..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc0010.md_c49",
+          "score": 0.7658,
+          "snippet": " 100 glyphs. In this arrangement, both orientations are present: horizontally both tiles [1|6] and [6|1] exist, while a regular game set only has one ..."
+        }
+      ],
+      "simple_rag": {
+        "predicted_answer": "28",
+        "exact_match": 1.0,
+        "f1_score": 1.0
+      },
+      "rag_triad": {
+        "context_relevance": 0.92,
+        "answer_relevance": 1.0,
+        "groundedness": 1.0
+      }
+    }
+  ],
+  "rag_triad_metrics": {
+    "context_relevance": 44.9,
+    "answer_relevance": 41.0,
+    "groundedness": 100.0
+  }
+}

@@ -1,0 +1,40 @@
+# Environment variables & sensitive keys
+.env
+.env.*
+!.env.example
+
+# Vector Store persistent database & storage
+storage/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Distribution & builds
+build/
+dist/
+*.egg-info/
+
+# IDE & Editor configuration
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test & coverage caches
+.pytest_cache/
+.coverage
+htmlcov/

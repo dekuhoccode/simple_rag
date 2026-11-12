@@ -1,0 +1,411 @@
+{
+  "Data": [
+    {
+      "QuestionId": "tc_905",
+      "Question": "Who first hosted Family Feud?",
+      "TargetDocIds": [
+        "doc0001"
+      ],
+      "Answer": {
+        "Value": "Richard Dawson",
+        "NormalizedValue": "richard dawson",
+        "Aliases": [
+          "Dick Dawson",
+          "Richard Dawson",
+          "Dickie Dawson",
+          "Colin Lionel Emm",
+          "Colin Emm"
+        ],
+        "NormalizedAliases": [
+          "colin lionel emm",
+          "richard dawson",
+          "colin emm",
+          "dickie dawson",
+          "dick dawson"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_280",
+      "Question": "Who directed the classic 30s western Stagecoach?",
+      "TargetDocIds": [
+        "doc0002"
+      ],
+      "Answer": {
+        "Value": "John Ford",
+        "NormalizedValue": "john ford",
+        "Aliases": [
+          "John Ford (1895-1973)",
+          "Sean O'Feeney",
+          "John Ford (film director)",
+          "Ford, John (1895-1973)",
+          "Argosy Pictures",
+          "John Ford statue",
+          "John Martin O'Feeney",
+          "John Ford (director)",
+          "Cavalry trilogy",
+          "John O'Feeney",
+          "Sean Aloysius O'Feeney",
+          "Ford, John",
+          "John Ford"
+        ],
+        "NormalizedAliases": [
+          "john ford 1895 1973",
+          "sean o feeney",
+          "ford john 1895 1973",
+          "john ford statue",
+          "ford john",
+          "john o feeney",
+          "john ford",
+          "sean aloysius o feeney",
+          "argosy pictures",
+          "cavalry trilogy",
+          "john ford film director",
+          "john ford director",
+          "john martin o feeney"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_2202",
+      "Question": "What are the international registration letters of a vehicle from Iceland?",
+      "TargetDocIds": [
+        "doc0003"
+      ],
+      "Answer": {
+        "Value": "IS",
+        "NormalizedValue": "is",
+        "Aliases": [
+          "I S",
+          "I.s.",
+          "IS",
+          "I.S.",
+          "Is.",
+          "IS (disambiguation)",
+          "Is"
+        ],
+        "NormalizedAliases": [
+          "is",
+          "i s",
+          "is disambiguation"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_1943",
+      "Question": "In which North African country was Mohammed Al-Fayed, owner of Harrods department store in London, born?",
+      "TargetDocIds": [
+        "doc0004"
+      ],
+      "Answer": {
+        "Value": "Egypt",
+        "NormalizedValue": "egypt",
+        "Aliases": [
+          "EGY",
+          "Arab Republic of Egypt",
+          "A .R . EGYPT",
+          "The Arab Republic of Egypt",
+          "Eygpt",
+          "Etymology of Egypt",
+          "مصر",
+          "Kemmet",
+          "Gift of the Nile",
+          "Arab Republic Of Egypt",
+          "Names of Egypt",
+          "Miṣr",
+          "A .R . Egypt",
+          "Eytp",
+          "National identity of Egyptians",
+          "Jumhuriyat Misr al'Arabiyah",
+          "Eypt",
+          "Egyptian Republic",
+          "Ejipt",
+          "Name of Egypt",
+          "Egipto",
+          "Kimet",
+          "جمهوريّة مصرالعربيّة",
+          "Egypte",
+          "Egypt (name)",
+          "Egypt",
+          "جمهورية مصرالعربية",
+          "A.R. Egypt",
+          "Republic of Eygpt",
+          "Égypte",
+          "Second Egyptian Republic",
+          "Egipt",
+          "ISO 3166-1:EG",
+          "Egypt info"
+        ],
+        "NormalizedAliases": [
+          "names of egypt",
+          "jumhuriyat misr al arabiyah",
+          "eytp",
+          "iso 3166 1 eg",
+          "egypt",
+          "r egypt",
+          "eygpt",
+          "kimet",
+          "name of egypt",
+          "جمهورية مصرالعربية",
+          "arab republic of egypt",
+          "egypt name",
+          "gift of nile",
+          "kemmet",
+          "miṣr",
+          "egipto",
+          "جمهوريّة مصرالعربيّة",
+          "egy",
+          "egypt info",
+          "egyptian republic",
+          "egypte",
+          "eypt",
+          "ejipt",
+          "national identity of egyptians",
+          "égypte",
+          "etymology of egypt",
+          "egipt",
+          "مصر",
+          "second egyptian republic",
+          "republic of eygpt"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_1704",
+      "Question": "Which grand slam did Pete Sampras not win in the 20th century?",
+      "TargetDocIds": [
+        "doc0005"
+      ],
+      "Answer": {
+        "Value": "French",
+        "NormalizedValue": "french",
+        "Aliases": [
+          "Français",
+          "Francaise",
+          "The French",
+          "Frenchness",
+          "French",
+          "Francais",
+          "French (disambiguation)",
+          "Frrench"
+        ],
+        "NormalizedAliases": [
+          "french disambiguation",
+          "french",
+          "frenchness",
+          "francaise",
+          "francais",
+          "frrench",
+          "français"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_1069",
+      "Question": "In which American state is the Isabella Stewart Gardner Museum?",
+      "TargetDocIds": [
+        "doc0006"
+      ],
+      "Answer": {
+        "Value": "Massachusetts",
+        "NormalizedValue": "massachusetts",
+        "Aliases": [
+          "Masachusetts",
+          "Masshole Commonwealth",
+          "Massachusetts (state)",
+          "Massachusetts culture",
+          "Massachusetts, United States",
+          "Masachussetts",
+          "Commonwealth of Masachusetts",
+          "The Bay State",
+          "Commonwealth of Masachussets",
+          "Culture of Massachusetts",
+          "Commonwealth of Massachusetts",
+          "MA (state)",
+          "Massechusetts",
+          "Commonwealth of Masachusets",
+          "Commonwealth of Massachussets",
+          "Religion in Massachusetts",
+          "Masschusetts",
+          "Masachussets",
+          "Commonwealth of Massachussetts",
+          "Massachusetts",
+          "Transport in Massachusetts",
+          "Massachusite",
+          "Economy of Massachusetts",
+          "6th State",
+          "Massitchusits",
+          "Massachsuetts",
+          "Commonwealth of Masachussetts",
+          "The Commonwealth of Massachusetts",
+          "Massachussets",
+          "Massachus",
+          "Massechussets",
+          "Transportation in Massachusetts",
+          "Massachusets",
+          "Masachusets",
+          "Mass.",
+          "Massachusetts state",
+          "Sixth State",
+          "Massachusites",
+          "Massacheusetts",
+          "Most Serene Commonwealth of Massachusetts",
+          "US-MA",
+          "Commonwealth of Massachusets",
+          "Massachussetts",
+          "Massachusetts (U.S. state)",
+          "Taxachusetts",
+          "State of Massachusetts",
+          "Massachusettes",
+          "Massachusettsan",
+          "Education in Massachusetts"
+        ],
+        "NormalizedAliases": [
+          "mass",
+          "massachusites",
+          "taxachusetts",
+          "massachusetts state",
+          "bay state",
+          "commonwealth of masachusets",
+          "massachusite",
+          "transportation in massachusetts",
+          "massachusettes",
+          "masachussetts",
+          "massachsuetts",
+          "masshole commonwealth",
+          "massacheusetts",
+          "culture of massachusetts",
+          "massachusetts u s state",
+          "massachussets",
+          "commonwealth of massachussets",
+          "ma state",
+          "commonwealth of masachussetts",
+          "massachusetts culture",
+          "commonwealth of massachussetts",
+          "masachussets",
+          "massachusets",
+          "massachusettsan",
+          "education in massachusetts",
+          "massachus",
+          "us ma",
+          "state of massachusetts",
+          "economy of massachusetts",
+          "massachusetts united states",
+          "6th state",
+          "commonwealth of massachusetts",
+          "massechusetts",
+          "massachusetts",
+          "commonwealth of massachusets",
+          "massechussets",
+          "masschusetts",
+          "transport in massachusetts",
+          "most serene commonwealth of massachusetts",
+          "massachussetts",
+          "commonwealth of masachussets",
+          "masachusetts",
+          "religion in massachusetts",
+          "masachusets",
+          "sixth state",
+          "massitchusits",
+          "commonwealth of masachusetts"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_866",
+      "Question": "Who was the first person after Scott to reach the South Pole overland?",
+      "TargetDocIds": [
+        "doc0007"
+      ],
+      "Answer": {
+        "Value": "Edmond Hillary",
+        "NormalizedValue": "edmond hillary",
+        "Aliases": [
+          "Sir Edmund Hillary",
+          "Edmund Hilary",
+          "Sir Ed",
+          "Sir Edmund Hilary",
+          "Sir Edmund Percival Hillary",
+          "Edmond Hillary",
+          "Ed Hillary",
+          "Edmond hillary",
+          "Sir Edmund",
+          "Edmund Percival Hillary",
+          "Edmund Hillary"
+        ],
+        "NormalizedAliases": [
+          "sir edmund",
+          "edmond hillary",
+          "sir edmund hillary",
+          "edmund hillary",
+          "sir edmund percival hillary",
+          "edmund hilary",
+          "sir ed",
+          "ed hillary",
+          "sir edmund hilary",
+          "edmund percival hillary"
+        ]
+      }
+    },
+    {
+      "QuestionId": "qz_1516",
+      "Question": "Who bought Chelsea football club for £1 in 1982?",
+      "TargetDocIds": [
+        "doc0008"
+      ],
+      "Answer": {
+        "Value": "Ken Bates",
+        "NormalizedValue": "ken bates",
+        "Aliases": [
+          "Ken Bates",
+          "Kenneth Bates"
+        ],
+        "NormalizedAliases": [
+          "kenneth bates",
+          "ken bates"
+        ]
+      }
+    },
+    {
+      "QuestionId": "tc_719",
+      "Question": "River Phoenix died during the making of which movie?",
+      "TargetDocIds": [
+        "doc0009"
+      ],
+      "Answer": {
+        "Value": "Dark Blood",
+        "NormalizedValue": "dark blood",
+        "Aliases": [
+          "Dark Blood (film)",
+          "Dark Blood"
+        ],
+        "NormalizedAliases": [
+          "dark blood",
+          "dark blood film"
+        ]
+      }
+    },
+    {
+      "QuestionId": "qz_196",
+      "Question": "How many pieces are there in a standard set of dominoes?",
+      "TargetDocIds": [
+        "doc0010"
+      ],
+      "Answer": {
+        "Value": "28",
+        "NormalizedValue": "28",
+        "Aliases": [
+          "28",
+          "twenty-eight"
+        ],
+        "NormalizedAliases": [
+          "twenty eight",
+          "28"
+        ]
+      }
+    }
+  ],
+  "Domain": "Wikipedia",
+  "VerifiedEval": false,
+  "Version": 1.0
+}
